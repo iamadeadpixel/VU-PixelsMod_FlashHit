@@ -1,12 +1,12 @@
 {
-    "Name": "replace with short description",
-    "Description": "replace to show other what the mod is",
+    "Name": "Iamadeadpixel's Mod",
+    "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
     "Version": "1.0.0",
-    "Reason": "replace with reason for update",
-    "Authors": [ "replace with authors name" ],
+    "Reason": "FlahHit full tweak !",
+    "Authors": [ "iamadeadpixel FlashHit" ],
     "HasVeniceEXT": true,
     "Dependencies": {
         "veniceext": "^1.0.0"
     },
-    "Tags": [ "shown in VU browser, replace this" ]
+    "Tags": [ "pixelmod-flashit" ]
 }
