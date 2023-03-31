@@ -1,0 +1,12 @@
+{
+    "Name": "replace with short description",
+    "Description": "replace to show other what the mod is",
+    "Version": "1.0.0",
+    "Reason": "replace with reason for update",
+    "Authors": [ "replace with authors name" ],
+    "HasVeniceEXT": true,
+    "Dependencies": {
+        "veniceext": "^1.0.0"
+    },
+    "Tags": [ "shown in VU browser, replace this" ]
+}
