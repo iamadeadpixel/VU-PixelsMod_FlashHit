@@ -1,8 +1,8 @@
 {
     "Name": "Iamadeadpixel's Mod",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.0",
-    "Reason": "FlahHit full tweak !",
+    "Version": "1.0.1",
+    "Reason": "Shotguns recoil update",
     "Authors": [ "iamadeadpixel FlashHit" ],
     "HasVeniceEXT": true,
     "Dependencies": {

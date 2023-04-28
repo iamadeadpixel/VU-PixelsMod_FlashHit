@@ -13,7 +13,8 @@
 # FlashHit Full revamped and code optimized version
 - This release is now in it own repo instance.
 
-# Welcome to Version 1.0.0
+# Welcome to Version 1.0.1
+- Updated the no-recoil for all shotguns
 
 # Update: 10-12-2022
 - FlasHit update !
