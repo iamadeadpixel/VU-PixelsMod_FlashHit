@@ -13,10 +13,18 @@
 # FlashHit Full revamped and code optimized version
 - This release is now in it own repo instance.
 
-# Welcome to Version 1.0.1
+# Welcome to Version 1.0.2
+# Last Update: 29-04-2023
+- Revamped land vehicles, and Air vehicles section.
+- Tweaked Claymore
+- Revamped Igla and Stinger (also a small fix)
+- Increased TOW ammo Sprud-SD and M1128
+- Tweaked Jet ammo
+
+# Previous Update: 28-04-2023
 - Updated the no-recoil for all shotguns
 
-# Update: 10-12-2022
+# Previous Update: 10-12-2022
 - FlasHit update !
 - To get this working as it should be.
 - Use the latest DEV version for client and server
