@@ -614,17 +614,6 @@ MOD.Mounted_Guns = {
 			}
 		}
 	},
-	-- Used on Jets: SU-25 & Thunderbolt
-	-- Vehicles/common/WeaponData/GAU8_cannon_firing
-	["71B9175E-431B-405F-8E7A-6CA6745BEE47"] = {
-		-- FiringFunctionData
-		["C1642697-2490-4AED-99D2-CFBDC84CD311"] = {
-			ammo = {
-				magazineCapacity = 1000, -- -1
-				numberOfMagazines = -1 -- -1
-			}
-		}
-	},
 	-- Used on Tanks
 	-- Vehicles/common/WeaponData/spec/Coax_LMG_Firing_Green_Tracer
 	["92A730E9-A070-1B6A-62F7-5C3C111F1CD5"] = {
@@ -706,4 +695,146 @@ MOD.RU_Sprud_SD_tow = {
 }
 --
 
+-- ------------------------------------------------------------------------------
+-- ------------------------------------------------------------------------------
+
+MOD.US_hellfire_ammo = {
+-- Path: Vehicles\Other stuff\common\weapondata\spec
+-- Filename: Hellfire_Missile_Firing_M1A2.txt
+-- Entity data: FiringFunctionData
+-- Works on: US Vehicles - M1 Abrams - M1128 - 
+	["E9A9A5A3-B15B-8BAC-B7FF-D3C1A33B0CA7"] = {
+		-- FiringFunctionData
+		["14121F05-C46F-5862-6CA0-EE4E359D0798"] = {
+			ammo = {
+		magazineCapacity = 12, -- -1
+		numberOfMagazines = -1, -- -1
+		},
+		fireLogic = {
+		reloadTime = 10.0 --  Default = 12
+			},
+		}
+	}
+}
+--
+
+-- ----------------------------------------
+
+MOD.Light_atack_vehicles_ammo = {
+-- Path: Vehicles\Other stuff\common\weapondata\spec
+-- Filename: Hellfire_Missile_Firing_Land_Vehicle.txt
+-- Entity data: FiringFunctionData
+-- Works on: US Vehicles - LAV-25
+-- Works on: RU Vehicles - BTR-90 - BMP-2M
+	["D8E9DBFA-5A3B-FE3A-15DC-BB639A3F3E40"] = {
+		-- FiringFunctionData
+		["53032F88-3870-7EE8-3DAD-DFA0C522094D"] = {
+			ammo = {
+		magazineCapacity = 12, -- -1
+		numberOfMagazines = -1, -- -1
+		},
+		fireLogic = {
+		reloadTime = 10.0 --  Default = 12
+			},
+		}
+	}
+}
+--
+
+-- ----------------------------------------
+
+MOD.Himars_hellfire_ammo = {
+-- Ammo type: Guided rocket
+-- Path: Vehicles\Other stuff\common\weapondata\spec
+-- Filename: Hellfire_Missile_Firing_HIMARS.txt
+-- Entity data: FiringFunctionData
+-- Works on: US Vehicles - HIMARS M142
+-- Works on: RU Vehicles - HIMARS BM23
+	["B44A16D3-2224-1017-C52C-622AAD9C4E82"] = {
+		-- FiringFunctionData
+		["2CD1EE40-BF94-2BD6-D0F3-81B4278BD3F5"] = {
+			ammo = {
+		magazineCapacity = 12, -- -1
+		numberOfMagazines = -1, -- -1
+		},
+		fireLogic = {
+		reloadTime = 10.0 --  Default = 12
+			},
+		}
+	}
+}
+--
+
+-- ----------------------------------------
+
+MOD.Himars_hellfire_exp_data = {
+-- Ammo type: Guided rocket
+-- Path: Vehicles\Other stuff\common\weapondata\spec
+-- Filename: Hellfire_Missile_Firing_HIMARS.txt
+-- Entity data: VeniceExplosionEntityData
+-- Works on: US Vehicles - HIMARS M142
+-- Works on: RU Vehicles - HIMARS BM23
+	["33297DA0-482C-2EBF-E932-C642E69040BC"] = {
+		-- VeniceExplosionEntityData
+		["B6DDC16C-4A50-2D0A-7E77-C9338B489ADC"] = {
+		blastDamage = 400, -- Normal = 200
+		blastRadius = 10, -- Normal = 4.5
+		blastImpulse = 8000, -- Normal = 4000
+		shockwaveDamage = 400, -- Normal = 1
+		shockwaveRadius = 12, -- Normal = 6
+		shockwaveImpulse = 2400, -- Normal = 1200
+		shockwaveTime = 0, -- Deafault = 0.25
+		triggerImpairedHearing = true,
+		isCausingSuppression = true
+		}
+	}
+}
+
+-- ----------------------------------------
+
+MOD.Airdefense_HS_ammo = {
+-- Ammo type: Heatseakers 
+-- Path: Vehicles\Other stuff\common\weapondata
+-- Filename: Artillery_Defense_Firing.txt
+-- Entity data: FiringFunctionData
+-- Works on: US Vehicles - HMMWV ASRAD - 
+-- Works on: RU Vehicles - VODNIK AA - 
+	["A753FD8C-0676-4704-9E9C-CAE7A126BE50"] = {
+		-- FiringFunctionData
+		["3B027C0E-2532-49F4-A334-0D3054014992"] = {
+			ammo = {
+		magazineCapacity = 12, -- -1
+		numberOfMagazines = -1, -- -1
+		},
+		fireLogic = {
+		reloadTime = 3.0 -- 4
+			},
+		}
+	}
+}
+--
+
+-- ----------------------------------------
+
+MOD.RU_Heavy_Atack_Vehicles_ammo = {
+-- Path: Vehicles\Other stuff\common\weapondata\spec
+-- Filename: Hellfire_Missile_Firing_T90.txt
+-- Entity data: FiringFunctionData
+-- Works on: RU Vehicles - T-90A - Sprud-SD - 
+	["68809B94-6B5F-8050-DEA6-2B0A47289960"] = {
+		-- FiringFunctionData
+		["6104F01C-0DC1-C85D-4BA5-3EC17C98AB8E"] = {
+			ammo = {
+		magazineCapacity = 12, -- -1
+		numberOfMagazines = -1 -- -1
+		},
+		fireLogic = {
+		reloadTime = 10.0 --  Default = 12
+			},
+		}
+	}
+}
+--
+
+-- ----------------------------------------
 

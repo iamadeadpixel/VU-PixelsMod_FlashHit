@@ -275,3 +275,119 @@ MOD.Jets_ammo = {
 }
 
 -- ----------------------------------------
+
+MOD.Jets_GAU8_ammo = {
+-- path: Vehicles\Other stuff\common\weapondata
+-- GAU8_cannon_firing.txt
+-- Used on RU vehicle: SU25TM frogfoot 
+-- Used on US vehicle: A10 thunderbolt
+	["71B9175E-431B-405F-8E7A-6CA6745BEE47"] = {
+		-- FiringFunctionData
+		["C1642697-2490-4AED-99D2-CFBDC84CD311"] = {
+			ammo = {
+		magazineCapacity = 1000, -- -1
+		numberOfMagazines = -1 -- -1
+			}
+		}
+	}
+}
+
+-- ----------------------------------------
+-- ----------------------------------------
+
+MOD.hellfire_choppers_ammo = {
+-- Path: Vehicles\Other stuff\common\weapondata
+-- Filename: Hellfire_Missile_Firing.txt
+-- Entity data: FiringFunctionData
+-- Works on: US Vehicles - Gunner Atack Chopper - AH-6J Litle Bird
+-- Works on: RU Vehicles - Gunner Atack Chopper - Z-11W
+	["6D07AA2E-CCFD-43AC-926A-A8032B2B5C86"] = {
+		-- FiringFunctionData
+		["761C8FA3-0DBD-4AFC-ADBE-125FE09717E7"] = {
+			ammo = {
+		magazineCapacity = 12, -- -1
+		numberOfMagazines = -1, -- -1
+		},
+		fireLogic = {
+		reloadTime = 3 -- 4
+			},
+		}
+	}
+}
+
+-- ----------------------------------------
+
+MOD.Air_all_exp_data = {
+-- Ammo type: Rocketpods pilot UPGRADE
+-- Path: Vehicles\Other stuff\common\weapondata
+-- Filename: RocketPods_Guided_Projectile.txt
+-- Entity data: VeniceExplosionEntityData
+-- Works on: US Vehicles - Atack Chopper (Pilot upgrade) - FA18E - F35 - A10 Thunderbolt
+-- Works on: RU Vehicles - Atack Chopper (Pilot upgrade)  - SU35BM - SU25TM Frogtoot
+	["837A230C-5B10-4266-9CE1-7DA194CCC1F4"] = {
+		-- VeniceExplosionEntityData
+		["168157CC-2EE1-498A-853F-E65BF4EEC236"] = {
+		blastDamage = 1200, -- Normal = 600
+		blastRadius = 20, -- Normal = 4.5
+		blastImpulse = 120, -- Normal = 60
+		shockwaveDamage = 300, -- Normal = 1.0
+		shockwaveRadius = 20, -- Normal = 6
+		shockwaveImpulse = 300, -- Normal = 150
+		shockwaveTime = 0, -- Deafault = 0.14
+		triggerImpairedHearing = true,
+		isCausingSuppression = true
+		}
+	}
+}
+
+-- ----------------------------------------
+
+MOD.Air_Atack_chopper_exp_data = {
+-- Ammo type: Rocket Pods Damage
+-- Path: Vehicles\Other stuff\common\weapondata
+-- Filename: RocketPods_Projectile.txt
+-- Entity data: VeniceExplosionEntityData
+-- Works on: US Vehicles - Atack Chopper
+-- Works on: RU Vehicles - Atack Chopper
+	["FB820538-6CA2-11DF-80BF-98CF01C6C718"] = {
+		-- VeniceExplosionEntityData
+		["AAFB274A-3266-4351-B7B9-3271D3AD881D"] = {
+		blastDamage = 300, -- Normal = 20
+		blastRadius = 20, -- Normal = 5
+		blastImpulse = 300, -- Normal = 100
+		shockwaveDamage = 300, -- Normal = 1
+		shockwaveRadius = 20, -- Normal = 8
+		shockwaveImpulse = 300, -- Normal = 40
+		shockwaveTime = 0, -- Deafault = 0.5
+		triggerImpairedHearing = true,
+		isCausingSuppression = true
+		}
+	}
+}
+
+-- ----------------------------------------
+
+MOD.Air_rocketpod_ammo = {
+-- Ammo type: Rocketpods upgrade
+-- Path: Vehicles\Other stuff\common\weapondata\spec
+-- Filename: RocketPods_Firing_upgrade.txt
+-- Entity data: FiringFunctionData
+-- Works on: US Vehicles - Atack Chopper - FA18E - F35 - A10 Thunderbolt
+-- Works on: RU Vehicles - Atack Chopper - SU35BM - SU25TM Frogtoot
+	["31842C9A-CA0C-5339-A99E-3131FFB5C06A"] = {
+		-- FiringFunctionData
+		["D59A2F24-CB80-1B8F-8A84-1F7F062B9A18"] = {
+			ammo = {
+		magazineCapacity = 45, -- -1
+		numberOfMagazines = -1, -- -1
+		},
+		fireLogic = {
+		reloadTime = 3 -- 4
+			},
+		}
+	}
+}
+
+-- ----------------------------------------
+
+
