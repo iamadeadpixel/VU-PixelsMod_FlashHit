@@ -376,7 +376,12 @@ Config = {
 		Jets_ammo = true,
 		US_M1128_tow = true,
 		RU_Sprud_SD_tow = true,
+		Jets_GAU8_ammo = true,
 
+		hellfire_choppers_ammo = true,
+		Air_all_exp_data = true,
+		Air_Atack_chopper_exp_data = true,
+		Air_rocketpod_ammo = true,
 
 		-- LandVehicles
 		RocketPods_Transport = true,
@@ -401,6 +406,13 @@ Config = {
 		SPRUT_SD = true,
 		TransportModified = true,
 		AAV_7A1 = true,
-		Mounted_Guns = true
+		Mounted_Guns = true,
+
+		Airdefense_HS_ammo = true,
+		Himars_hellfire_ammo = true,
+		Himars_hellfire_exp_data = true,
+		Light_atack_vehicles_ammo = true,
+		RU_Heavy_Atack_Vehicles_ammo = true,
+		US_hellfire_ammo = true
 	}
 }
