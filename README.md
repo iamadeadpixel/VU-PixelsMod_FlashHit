@@ -13,8 +13,11 @@
 # FlashHit Full revamped and code optimized version
 - This release is now in it own repo instance.
 
-# Welcome to Version 1.0.2
-# Last Update: 29-04-2023
+# Welcome to Version 1.0.3
+# Last Update: 03-05-2023
+- Added more pimped vehicle data
+
+# Previous Update: 29-04-2023
 - Revamped land vehicles, and Air vehicles section.
 - Tweaked Claymore
 - Revamped Igla and Stinger (also a small fix)
