@@ -1,8 +1,8 @@
 {
     "Name": "Iamadeadpixel's Mod",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.3-a",
-    "Reason": "Bbug fix in landvehicles",
+    "Version": "1.0.3",
+    "Reason": "Big weapon upgrade",
     "Authors": [ "iamadeadpixel FlashHit" ],
     "HasVeniceEXT": true,
     "Dependencies": {
