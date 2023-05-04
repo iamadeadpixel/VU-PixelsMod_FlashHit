@@ -13,10 +13,9 @@
 # FlashHit Full revamped and code optimized version
 - This release is now in it own repo instance.
 
-# Welcome to Version 1.0.3
-
+# Welcome to Version 1.0.3-b
 # Last Update: 04-05-2023
-- Update fix in code for landvehicles.lua
+- Update and fix in LandVehicles.lua
 
 # Previous Update: 03-05-2023
 - Added more pimped vehicle data
