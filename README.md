@@ -14,7 +14,11 @@
 - This release is now in it own repo instance.
 
 # Welcome to Version 1.0.3
-# Last Update: 03-05-2023
+
+# Last Update: 04-05-2023
+- Update fix in code for landvehicles.lua
+
+# Previous Update: 03-05-2023
 - Added more pimped vehicle data
 
 # Previous Update: 29-04-2023
