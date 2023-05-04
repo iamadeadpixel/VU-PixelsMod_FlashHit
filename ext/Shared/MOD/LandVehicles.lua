@@ -541,7 +541,7 @@ MOD.AAV_7A1 = {
 			}
 		},
 		-- BulletEntityData
-		["E774DD5A-F94C-4CD3-98B4-72C072679B59"] = {
+		["CF718E63-EDA0-4A87-BEE5-CBF5CE3F66F8"] = {
 			timeToLive = 8.0, -- 5.0
 			gravity = 0.0 -- -7.0
 		},
