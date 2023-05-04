@@ -409,6 +409,7 @@ Config = {
 		Mounted_Guns = true,
 
 		Airdefense_HS_ammo = true,
+		Airdefense_HS_ammo2 = true,
 		Himars_hellfire_ammo = true,
 		Himars_hellfire_exp_data = true,
 		Light_atack_vehicles_ammo = true,

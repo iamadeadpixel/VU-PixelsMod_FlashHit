@@ -5,7 +5,7 @@ MOD.RocketPods_Transport = {
 		-- FiringFunctionData
 		["D7B1F6F8-9564-4B5C-A59A-E84984C5E041"] = {
 			ammo = {
-				magazineCapacity = 24 -- 2
+				magazineCapacity = 6 -- 2 - x2 multiplier
 			}
 		}
 	},
@@ -14,13 +14,64 @@ MOD.RocketPods_Transport = {
 		-- MissileEntityData
 		["637A87DE-FC71-412A-98AC-522FA7005BB6"] = {
 			initialSpeed = 700.0, -- 350.0
-			timeToLive = 8.0, -- 10.0
+			timeToLive = 12.0, -- 10.0
 			engineStrength = 150.0, -- 100.0
 			maxSpeed = 250.0, -- 150.0
 			gravity = 0.0 -- -1.5
 		}
 	}
 }
+
+--
+MOD.Airdefense_HS_ammo = {
+-- Ammo type: Heatseakers 
+-- Path: Vehicles\Other stuff\common\weapondata
+-- Filename: Artillery_Defense_Firing.txt
+-- Entity data: FiringFunctionData
+-- Works on: US Vehicles - HMMWV ASRAD - 
+-- Works on: RU Vehicles - VODNIK AA - 
+	["A753FD8C-0676-4704-9E9C-CAE7A126BE50"] = {
+		-- FiringFunctionData
+		["3B027C0E-2532-49F4-A334-0D3054014992"] = {
+			ammo = {
+		magazineCapacity = 4, -- -1
+		numberOfMagazines = -1, -- -1
+		},
+		fireLogic = {
+		reloadTime = 3.0 -- 4
+			},
+		}
+	}
+}
+--
+
+MOD.Airdefense_HS_ammo2 = {
+-- Ammo type: Heatseakers
+-- Path: Vehicles\Other stuff\common\weapondata\spec
+-- Filename: HeatSeeking_Missile_Firing_Avenger.txt
+-- Entity data: FiringFunctionData
+-- Works on: US Vehicles - HMMWV ASRAD - 
+-- Works on: RU Vehicles - VODNIK AA - 
+
+	["CED2EBA1-DD1D-44B4-9A1B-EB50EAC56E88"] = {
+		-- FiringFunctionData
+		["81D001B4-03FD-4C31-9582-B11C23461357"] = {
+			ammo = {
+		magazineCapacity = 6, -- 1 x2 multiplier !
+		numberOfMagazines = -1, -- -1
+		},
+		fireLogic = {
+		reloadTime = 2.0 -- 4
+			},
+		}
+	}
+}
+--
+
+
+
+-- ----------------------------------------
+
 MOD.MobileAA = {
 	-- Vehicles/common/WeaponData/spec/Vulcan_Cannon_Firing_Tunguska
 	["22D80A30-0A76-176C-C559-6E71C4F17915"] = {
@@ -792,29 +843,6 @@ MOD.Himars_hellfire_exp_data = {
 
 -- ----------------------------------------
 
-MOD.Airdefense_HS_ammo = {
--- Ammo type: Heatseakers 
--- Path: Vehicles\Other stuff\common\weapondata
--- Filename: Artillery_Defense_Firing.txt
--- Entity data: FiringFunctionData
--- Works on: US Vehicles - HMMWV ASRAD - 
--- Works on: RU Vehicles - VODNIK AA - 
-	["A753FD8C-0676-4704-9E9C-CAE7A126BE50"] = {
-		-- FiringFunctionData
-		["3B027C0E-2532-49F4-A334-0D3054014992"] = {
-			ammo = {
-		magazineCapacity = 12, -- -1
-		numberOfMagazines = -1, -- -1
-		},
-		fireLogic = {
-		reloadTime = 3.0 -- 4
-			},
-		}
-	}
-}
---
-
--- ----------------------------------------
 
 MOD.RU_Heavy_Atack_Vehicles_ammo = {
 -- Path: Vehicles\Other stuff\common\weapondata\spec
