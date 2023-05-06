@@ -1,8 +1,8 @@
 {
     "Name": "Iamadeadpixel's Mod",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.3-b",
-    "Reason": "Heatseaker fix on asrad and vodnik",
+    "Version": "1.0.4",
+    "Reason": "javeling / igla / stinger fix",
     "Authors": [ "iamadeadpixel FlashHit" ],
     "HasVeniceEXT": true,
     "Dependencies": {

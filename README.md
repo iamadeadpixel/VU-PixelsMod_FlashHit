@@ -13,8 +13,13 @@
 # FlashHit Full revamped and code optimized version
 - This release is now in it own repo instance.
 
-# Welcome to Version 1.0.3-b
-# Last Update: 04-05-2023
+# Welcome to Version 1.0.4
+# Last Update: 07-05-2023
+- Instance ID fix for the Javelin
+- Restored default locking data
+- Fixed broken igla and stinger stuff
+
+# Previous Update: 04-05-2023
 - Update and fix in LandVehicles.lua
 
 # Previous Update: 03-05-2023
@@ -33,6 +38,6 @@
 # Previous Update: 10-12-2022
 - FlasHit update !
 - To get this working as it should be.
-- Use the latest DEV version for client and server
+- Use the latest versions for client and server
 
 
