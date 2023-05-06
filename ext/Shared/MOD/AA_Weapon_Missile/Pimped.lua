@@ -6,8 +6,8 @@ MOD.AA_Weapon_Missile = {
 		-- MissileEntityData
 		["5DFC8761-7C3F-26EB-79F0-A40D780C5A82"] = {
 			initialSpeed = 200.0, -- 350.0
-			timeToLive = 60.0, -- 10.0
-			engineStrength = 70.0, -- 35.0
+			timeToLive = 30.0, -- 10.0
+			engineStrength = 50.0, -- 35.0
 			maxSpeed = 150.0 -- 200.0
 		},
 		-- LockingControllerData
@@ -17,10 +17,10 @@ MOD.AA_Weapon_Missile = {
 		-- VeniceExplosionEntityData
 		["2ABC6E49-3D6E-4578-B64B-7BED0960AB5D"] = {
 			blastDamage = 2500.0, -- 0.0
-			blastRadius = 160.0, -- 4.5
+			blastRadius = 20.0, -- 4.5
 			blastImpulse = 4000.0, -- 150.0
 			shockwaveDamage = 500.0, -- 1.0
-			shockwaveRadius = 200.0, -- 6.0
+			shockwaveRadius = 20.0, -- 6.0
 			shockwaveImpulse = 4000.0, -- 1500.0
 			shockwaveTime = 0.1 -- 0.1
 		}
@@ -31,17 +31,10 @@ MOD.Igla = {
 	["B412A569-1413-11E0-A672-E0A480096E27"] = {
 		-- LockingWeaponData
 		["BA1B7D20-46F4-40E2-9835-B963CFF07527"] = {
-			isGuided = true, -- false
-			isGuidedWhenZoomed = true, -- false
 			fireOnlyWhenLockedOn = true -- true
 		},
 		-- LockingControllerData
 		["CDC3C3F1-C14A-43D4-B97B-68C286DEFEA8"] = {
-			zoomLevelLock = {
-				[2] = {
-					lockType = LockType.LockAlways -- LockType.LockOnHeat
-				}
-			},
 			lockTime = 0.5, -- 1.25
 			releaseTime = 0.2, -- 0.5
 			releaseOnNewTargetTime = 0.5, -- 1.5
@@ -66,17 +59,10 @@ MOD.Stinger = {
 	["28C2561D-EC16-11DF-BA9E-F3DCE5C70CB9"] = {
 		-- LockingWeaponData
 		["AC50A504-5962-4F7F-84F8-640BCC36F73B"] = {
-			isGuided = true, -- false
-			isGuidedWhenZoomed = true, -- false
 			fireOnlyWhenLockedOn = true -- true
 		},
 		-- LockingControllerData
 		["41810442-CE99-42F8-96C4-FDC50F349DC4"] = {
-			zoomLevelLock = {
-				[2] = {
-					lockType = LockType.LockAlways -- LockType.LockOnHeat
-				}
-			},
 			lockTime = 0.5, -- 1.25
 			releaseTime = 0.2, -- 0.5
 			releaseOnNewTargetTime = 0.5, -- 1.5

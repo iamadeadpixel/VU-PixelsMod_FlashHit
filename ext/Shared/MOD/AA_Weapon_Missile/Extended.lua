@@ -6,13 +6,13 @@ MOD.AA_Weapon_Missile = {
 		-- MissileEntityData
 		["5DFC8761-7C3F-26EB-79F0-A40D780C5A82"] = {
 			initialSpeed = 200.0, -- 350.0
-			timeToLive = 60.0, -- 10.0
-			engineStrength = 70.0, -- 35.0
+			timeToLive = 30.0, -- 10.0
+			engineStrength = 50.0, -- 35.0
 			maxSpeed = 150.0 -- 200.0
 		},
 		-- LockingControllerData
 		["DFA0EF35-6E53-477C-9CB9-38B271AFC18C"] = {
-			rayLength = 1200.0 -- 1000.0
+			rayLength = 1500.0 -- 1000.0
 		}
 	}
 }
@@ -21,17 +21,10 @@ MOD.Igla = {
 	["B412A569-1413-11E0-A672-E0A480096E27"] = {
 		-- LockingWeaponData
 		["BA1B7D20-46F4-40E2-9835-B963CFF07527"] = {
-			isGuided = true, -- false
-			isGuidedWhenZoomed = true, -- false
 			fireOnlyWhenLockedOn = true -- true
 		},
 		-- LockingControllerData
 		["CDC3C3F1-C14A-43D4-B97B-68C286DEFEA8"] = {
-			zoomLevelLock = {
-				[2] = {
-					lockType = LockType.LockAlways -- LockType.LockOnHeat
-				}
-			},
 			lockTime = 0.5, -- 1.25
 			releaseTime = 0.2, -- 0.5
 			releaseOnNewTargetTime = 0.5, -- 1.5
@@ -44,7 +37,7 @@ MOD.Igla = {
 		["CE53E1AB-2B5B-4844-97B7-5A4990EB3913"] = {
 			ammo = {
 				magazineCapacity = 1, -- 1
-				numberOfMagazines = 7, -- 3 Also multiplier x2
+				numberOfMagazines = 12, -- 3
 				autoReplenishDelay = 0.5, -- 5.0
 				ammoBagPickupDelayMultiplier = 0.5 -- 2.5
 			}
@@ -56,17 +49,10 @@ MOD.Stinger = {
 	["28C2561D-EC16-11DF-BA9E-F3DCE5C70CB9"] = {
 		-- LockingWeaponData
 		["AC50A504-5962-4F7F-84F8-640BCC36F73B"] = {
-			isGuided = true, -- false
-			isGuidedWhenZoomed = true, -- false
 			fireOnlyWhenLockedOn = true -- true
 		},
 		-- LockingControllerData
 		["41810442-CE99-42F8-96C4-FDC50F349DC4"] = {
-			zoomLevelLock = {
-				[2] = {
-					lockType = LockType.LockAlways -- LockType.LockOnHeat
-				}
-			},
 			lockTime = 0.5, -- 1.25
 			releaseTime = 0.2, -- 0.5
 			releaseOnNewTargetTime = 0.5, -- 1.5
@@ -79,7 +65,7 @@ MOD.Stinger = {
 		["2EEC7BB1-BFD2-41C5-AFEF-C36A61BB9E6D"] = {
 			ammo = {
 				magazineCapacity = 1, -- 1
-				numberOfMagazines = 7, -- 3 Also multiplier x2
+				numberOfMagazines = 12, -- 3 Also multiplier x2
 				autoReplenishDelay = 0.5, -- 5.0
 				ammoBagPickupDelayMultiplier = 0.5 -- 2.5
 			}

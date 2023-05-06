@@ -8,12 +8,7 @@ MOD.Javelin = {
 			fireOnlyWhenLockedOn = true -- true
 		},
 		-- LockingControllerData
-		["4A956A3A-CEA0-455C-A8DE-674A6940407D"] = {
-			zoomLevelLock = {
-				[2] = {
-					lockType = LockType.LockAlways -- LockType.LockOnLaserPainted
-				}
-			},
+		["31745EFE-125F-481C-940D-D9F76EB41116"] = {
 			lockTime = 0.5, -- 1.5
 			releaseTime = 0.2, -- 1.0
 			releaseOnNewTargetTime = 0.5, -- 0.5
@@ -26,7 +21,7 @@ MOD.Javelin = {
 		["C1CE96A7-C9DD-43B3-822F-1B5BAC0F331A"] = {
 			ammo = {
 				magazineCapacity = 1, -- 1
-				numberOfMagazines = 7, -- 2
+				numberOfMagazines = 12, -- 2
 				autoReplenishDelay = 0.5, -- 5.0
 				ammoBagPickupDelayMultiplier = 0.5 -- 2.5
 			}
