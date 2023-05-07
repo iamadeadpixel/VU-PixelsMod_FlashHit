@@ -1,8 +1,8 @@
 {
     "Name": "Iamadeadpixel's Mod",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.4",
-    "Reason": "javelin / igla / stinger fix",
+    "Version": "1.0.4-a",
+    "Reason": "tweaked the init file, moddifying message can be turned off",
     "Authors": [ "iamadeadpixel FlashHit" ],
     "HasVeniceEXT": true,
     "Dependencies": {
