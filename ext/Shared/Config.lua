@@ -17,7 +17,7 @@ Config = {
 			-- tweak all assault rifles
 			Weapons = true,
 			-- tweak all assault rifles recoil
-			Recoil = true
+			Recoil = false
 		},
 
 		-- tweak AirVehicles
@@ -25,7 +25,7 @@ Config = {
 			-- tweak heli movement
 			Movement = true,
 			-- tweak heli & jet & Gun ship weapons
-			Weapons = true
+			Weapons = false
 		},
 
 		-- tweak vehicles
@@ -34,7 +34,7 @@ Config = {
 			-- tweak PDWs
 			Weapons = true,
 			-- tweak PDWs Recoil
-			Recoil = true
+			Recoil = false
 		},
 
 		-- tweak Crossbows
@@ -48,7 +48,7 @@ Config = {
 			-- tweak Engineer rifles
 			Weapons = true,
 			-- tweak Engineer rifles recoil
-			Recoil = true
+			Recoil = false
 		},
 		-- tweak all type of gadgets (except M320, M26 and C4)
 		Gadgets = true,
@@ -56,19 +56,19 @@ Config = {
 			-- tweak all handguns/pistols
 			Weapons = true,
 			-- tweak all pistols recoil
-			Recoil = true
+			Recoil = false
 		},
 		Snipers = {
 			-- tweak all sniper rifles
 			Weapons = true,
 			-- tweak all sniper rifles recoil
-			Recoil = true
+			Recoil = false
 		},
 		LMGs = {
 			-- tweak all LMGs
 			Weapons = true,
 			-- tweak all LMGs Recoil
-			Recoil = true,
+			Recoil = false,
 		},
 		Shotguns = {
 			-- tweak all shotgun bullet types
@@ -99,8 +99,8 @@ Config = {
 		-- tweak Javelin
 		Javelin = {
 			-- Only one of them should be active
-			Extended = false,
-			Pimped = true
+			Extended = true,
+			Pimped = false
 		},
 		-- tweak RPG
 		RPG = {
@@ -117,8 +117,8 @@ Config = {
 		-- tweak Stinger & Igla
 		AA_Weapon_Missile = {
 			-- Only one of them should be active
-			Extended = false,
-			Pimped = true
+			Extended = true,
+			Pimped = false
 		}
 	},
 	ByName = {
