@@ -1,5 +1,5 @@
 -- Updatecheck for newer content on this mod
---require('__shared/UpdateCheck')  
+require('__shared/UpdateCheck')  
 
 -- Enable or disable the modifying message spam
 bEnable_announcement_Message_Modules = false
