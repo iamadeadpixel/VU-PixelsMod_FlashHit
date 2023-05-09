@@ -25,7 +25,7 @@ Config = {
 			-- tweak heli movement
 			Movement = true,
 			-- tweak heli & jet & Gun ship weapons
-			Weapons = false
+			Weapons = true
 		},
 
 		-- tweak vehicles
