@@ -1,9 +1,5 @@
 -- Updatecheck for newer content on this mod
-require('__shared/UpdateCheck')  
-
--- Enable or disable the modifying message spam
-bEnable_announcement_Message_Modules = false
-
+--require('__shared/UpdateCheck')  
 
 -- Auto cast the instance and makes it writable by choice
 -- NOTE: this can be removed once the VU runtime branch is pushed
@@ -59,14 +55,13 @@ Events:Subscribe('Level:LoadResources', function(p_LevelName, p_GameMode, p_IsDe
 	-- let the magic start
 	for l_Name, l_Partitions in pairs(MOD) do
 		if Config.ByName[l_Name] then
-	if (bEnable_announcement_Message_Modules) == (true) then print(string.format("Modifying %s", l_Name))
-	else
+			print(string.format("Modifying %s", l_Name))
+
 			for l_PartitionGuid, l_Instances in pairs(l_Partitions) do
 				ResourceManager:RegisterPartitionLoadHandlerOnce(Guid(l_PartitionGuid), l_Instances, _PartitionLoaded)
 			end
 		end
 	end
-end
 end)
 
 function LiveUpdate(p_Option)
@@ -79,13 +74,12 @@ function LiveUpdate(p_Option)
 			local s_Partition = ResourceManager:FindDatabasePartition(Guid(l_PartitionGuid))
 
 			if not s_Partition then
-	if (bEnable_announcement_Message_Modules) == (true) then print("Failed to find Partition: " .. l_PartitionGuid)
+				print("Failed to find Partition: " .. l_PartitionGuid)
 			else
 				_PartitionLoaded(l_Instances, s_Partition)
 			end
 		end
 	end
-end
 end
 
 -- Updates all instances
@@ -94,8 +88,8 @@ function LiveUpdateAll()
 
 	for l_Name, l_Partitions in pairs(MOD) do
 		if Config.ByName[l_Name] then
-	if (bEnable_announcement_Message_Modules) == (true) then print(string.format("Modifying %s", l_Name))
-	else
+			print(string.format("Modifying %s", l_Name))
+
 			for l_PartitionGuid, l_Instances in pairs(l_Partitions) do
 				local s_Partition = ResourceManager:FindDatabasePartition(Guid(l_PartitionGuid))
 
@@ -108,7 +102,6 @@ function LiveUpdateAll()
 		end
 	end
 end
-end
 
 -- Check if this is a hot reload / mod reload.
 if SharedUtils:IsServerModule() and #SharedUtils:GetContentPackages() ~= 0
@@ -116,9 +109,5 @@ or SharedUtils:IsClientModule() and SharedUtils:GetLevelName() ~= "Levels/Web_Lo
 	-- This is a hot reload / mod reload.
 	LiveUpdateAll()
 end
-
--- end for message ?
---	end
-
 
 require("__shared/LoadingLevelPrint")
