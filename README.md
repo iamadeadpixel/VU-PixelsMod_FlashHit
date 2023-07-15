@@ -13,12 +13,12 @@
 # FlashHit Full revamped and code optimized version
 - This release is now in it own repo instance.
 
-# Welcome to Version 1.0.4-a
-# Last Update: 07-05-2023
-- Tweaked the init file, edit line 5, current value is false
-- On default the modifying messages are now disabled
-- if you set this to true, all message wil be spammed.
+# Welcome to Version 1.0.5
 
+# Last Update: 15-07-2023
+- Fixed a isue with the radarsweep components for mobile AA's
+
+# Previous Update: 07-05-2023
 - Instance ID fix for the Javelin
 - Restored default locking data
 - Fixed broken igla and stinger stuff
