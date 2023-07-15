@@ -218,6 +218,19 @@ MOD.LAV25_radarsweep = {
 		}
 	}
 }
+MOD.BTR90_radarsweep = {
+	-- Vehicles/BTR90
+	["22CFC313-4DD1-49E6-B45F-A8B1194105C5"] = {
+		-- RadarSweepComponentData
+		["D9D24BDD-9700-41A4-A2E3-5DCDF7B6E762"] = {
+			controllableSweepRadius = 60.0, -- 25.0
+			controllableSweepInterval = 1.5, -- 1.5
+			sweepForMines = true, -- true
+			mineSweepRadius = 60.0, -- 25.0
+			mineSweepInterval = 1.5 -- 0.1
+		}
+	}
+}
 MOD.LAV_AD_radarsweep = {
 	-- Vehicles/LAV25/LAV_AD
 	["0E23F40F-CDB3-4B9E-A36B-BD338CFA35BC"] = {
