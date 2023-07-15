@@ -390,6 +390,7 @@ Config = {
 		M1ABRAMS = true,
 		T90 = true,
 		LAV25_radarsweep = true,
+		BTR90_radarsweep = true,
 		LAV_AD_radarsweep = true,
 		Tunguska_radarsweep = true,
 		HumveeArmored = true,
