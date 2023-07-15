@@ -99,8 +99,8 @@ Config = {
 		-- tweak Javelin
 		Javelin = {
 			-- Only one of them should be active
-			Extended = true,
-			Pimped = false
+			Extended = false,
+			Pimped = true
 		},
 		-- tweak RPG
 		RPG = {
@@ -117,8 +117,8 @@ Config = {
 		-- tweak Stinger & Igla
 		AA_Weapon_Missile = {
 			-- Only one of them should be active
-			Extended = true,
-			Pimped = false
+			Extended = false,
+			Pimped = true
 		}
 	},
 	ByName = {
@@ -389,8 +389,9 @@ Config = {
 		RHIB = true,
 		M1ABRAMS = true,
 		T90 = true,
-		LAV25 = true,
-		LAV_AD = true,
+		LAV25_radarsweep = true,
+		LAV_AD_radarsweep = true,
+		Tunguska_radarsweep = true,
 		HumveeArmored = true,
 		GrowlerITV = true,
 		QuadBike = true,
