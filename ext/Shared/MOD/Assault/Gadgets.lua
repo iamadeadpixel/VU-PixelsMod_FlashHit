@@ -62,6 +62,8 @@ MOD.M26_SLUG = {
 		}
 	}
 }
+
+-- ------------------------
 MOD.M320_HE = {
 	-- Weapons/Gadgets/M320/40mm_HE_Firing
 	["D99AA0F1-2694-40C8-91EB-5235FFEBAC71"] = {
@@ -77,12 +79,12 @@ MOD.M320_HE = {
 			}
 		}
 	},
-	-- Weapons/Gadgets/M320/40mmGrenade
+	-- Weapons/Gadgets/M320/40mmGrenade.txt
 	["D37476C2-3A86-11E0-BC25-D51252D5A427"] = {
 		-- BulletEntityData
 		["CEC6D381-72DE-B7D4-E998-0D566E0575C6"] = {
-			gravity = -1.0, -- -7.2
-			timeToLive = 7.0, -- 0.0
+			gravity = 0, -- -7.2
+			timeToLive = 10.0, -- 0.0
 			initialSpeed = 900.0 -- 350.0
 		}
 	}
@@ -106,8 +108,8 @@ MOD.M320_LVG = {
 	["FD79A08F-F108-4751-B2C0-6C47397133B5"] = {
 		-- GrenadeEntityData
 		["393E4094-C2A2-4DF2-B977-F82E6974A8CB"] = {
-			gravity = -1.0, -- -15.0
-			timeToLive = 3.0, -- 2.5
+			gravity = -0, -- -15.0
+			timeToLive = 10.0, -- 2.5
 			initialSpeed = 900.0 -- 350.0
 		}
 	}
@@ -129,9 +131,10 @@ MOD.M320_SHG = {
 	}
 }
 MOD.M320_SMK = {
-	-- Weapons/Gadgets/M320/40mm_SMK_Firing
 	["049734EF-C380-46D3-91AE-BF4B594077B6"] = {
-		-- FiringFunctionData
+		-- Path: Weapons/Gadgets/M320
+		-- Filename: 40mm_SMK_Firing.txt
+		-- Entity data: FiringFunctionData
 		["5BA41C7A-97CE-4946-8B1D-C873B1ABF6EA"] = {
 			ammo = {
 				magazineCapacity = 1, -- 1
@@ -140,7 +143,55 @@ MOD.M320_SMK = {
 			shot = {
 				numberOfBulletsPerShell = 15, -- 1
 				numberOfBulletsPerShot = 15 -- 1
+			},
+			fireLogic = {
+				reloadTime = 2.5 -- 2.9
+			},
+			weaponDispersion = {
+				standDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0
+				},
+				crouchDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0
+				},
+				proneDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0 
+				}
 			}
 		}
+	},
+	["A3E3C07B-2E9C-42D2-B540-7E70594293EC"] = {
+		-- Path: Weapons/Gadgets/M320
+		-- Filename: 40mmSmoke.txt
+		-- Entity data: BulletEntityData
+		["30AD5145-04AD-4C97-8D1B-B4FE0E1AD6F5"] = {
+			gravity = -1, -- -7
+			timeToLive = 5, -- 0
+			initialSpeed = 900.0, -- 350.0
+			detonateOnTimeout = true -- False
+		},
+		-- Path: Weapons/Gadgets/M320
+		-- Filename: 40mmSmoke.txt
+		-- Entity data: VeniceExplosionEntityData
+		["48BBE181-231E-4E7F-A959-10ECA1BCAF57"] = {
+			blastDamage = 10, -- Normal = 0
+			blastRadius = 15, -- Normal = 7
+			blastImpulse = 10, -- Normal = 0
+			shockwaveDamage = 10, -- Normal = 1
+			shockwaveRadius = 15, -- Normal = 8
+			shockwaveImpulse = 10, -- Normal = 0
+			triggerImpairedHearing = true,
+			isCausingSuppression = true
+		}
 	}
-}
+} 
+
+
+
+ 

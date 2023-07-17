@@ -205,58 +205,6 @@ MOD.T90 = {
 		}
 	}
 }
-MOD.LAV25_radarsweep = {
-	-- Vehicles/LAV25/LAV25
-	["D124CDD4-FE2A-11DF-BB74-FD1A26B74EE5"] = {
-		-- RadarSweepComponentData
-		["30769039-A9CD-4B93-BC5B-34E59265A25F"] = {
-			controllableSweepRadius = 60.0, -- 25.0
-			controllableSweepInterval = 1.5, -- 1.5
-			sweepForMines = true, -- true
-			mineSweepRadius = 60.0, -- 25.0
-			mineSweepInterval = 1.5 -- 0.1
-		}
-	}
-}
-MOD.BTR90_radarsweep = {
-	-- Vehicles/BTR90
-	["22CFC313-4DD1-49E6-B45F-A8B1194105C5"] = {
-		-- RadarSweepComponentData
-		["D9D24BDD-9700-41A4-A2E3-5DCDF7B6E762"] = {
-			controllableSweepRadius = 60.0, -- 25.0
-			controllableSweepInterval = 1.5, -- 1.5
-			sweepForMines = true, -- true
-			mineSweepRadius = 60.0, -- 25.0
-			mineSweepInterval = 1.5 -- 0.1
-		}
-	}
-}
-MOD.LAV_AD_radarsweep = {
-	-- Vehicles/LAV25/LAV_AD
-	["0E23F40F-CDB3-4B9E-A36B-BD338CFA35BC"] = {
-		-- RadarSweepComponentData
-		["5BD5B6E3-4BB8-4145-90B0-D0D587E15F3C"] = {
-			controllableSweepRadius = 60.0, -- 25.0
-			controllableSweepInterval = 1.5, -- 1.5
-			sweepForMines = true, -- true
-			mineSweepRadius = 60.0, -- 25.0
-			mineSweepInterval = 1.5 -- 0.1
-		}
-	}
-}
-MOD.Tunguska_radarsweep = {
-	-- Vehicles/9K22_Tunguska_M.txt
-	["3DB73059-32BD-11E0-931D-8D7AAE81C8B7"] = {
-		-- RadarSweepComponentData
-		["3AA07F51-623F-4FBD-9849-A978CDBD57F4"] = {
-			controllableSweepRadius = 60.0, -- 25.0
-			controllableSweepInterval = 1.5, -- 1.5
-			sweepForMines = true, -- true
-			mineSweepRadius = 60.0, -- 25.0
-			mineSweepInterval = 1.5 -- 0.1
-		}
-	}
-}
 MOD.HumveeArmored = {
 	-- Vehicles/HumveeArmored/HumveeArmored
 	["611F48A3-0919-11E0-985D-C512734E48AF"] = {
