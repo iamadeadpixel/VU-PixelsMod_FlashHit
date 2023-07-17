@@ -3,6 +3,9 @@
 - Stunts mod for Battlefield 3: Venice Unleashed
 - https://github.com/MajorVictory/VU-MajorsMod
 
+## FlashHit Full revamped and code optimized version
+- This release is now in it own repo instance.
+
 # Modded version:
 ## iamadeadpixel
 - Make things go more fun and kinky
@@ -10,12 +13,12 @@
 - Pixels stock version,just incase it goes wonko.
 - https://github.com/spatieman/VU-PixelsMod
 
-# FlashHit Full revamped and code optimized version
-- This release is now in it own repo instance.
+# Welcome to Version 1.0.6
+# Last Update: 17-07-2023
+- Refixed all RadarSweepComponentData
+- Beefed the M320 smoke pew pew..
 
-# Welcome to Version 1.0.5
-
-# Last Update: 15-07-2023
+# Previous Update: 15-07-2023
 - Fixed a isue with the radarsweep components for mobile AA's
 
 # Previous Update: 07-05-2023

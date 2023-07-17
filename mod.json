@@ -1,8 +1,8 @@
 {
     "Name": "Iamadeadpixel's Mod",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.5",
-    "Reason": "Mobile AA radarsweep fix",
+    "Version": "1.0.6",
+    "Reason": "Radarsweep fix and M320 beefed",
     "Authors": [ "iamadeadpixel FlashHit" ],
     "HasVeniceEXT": true,
     "Dependencies": {
