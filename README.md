@@ -10,8 +10,6 @@
 ## iamadeadpixel
 - Make things go more fun and kinky
 - Full weapon tweak, and tons of other stuff you gonna hate
-- Pixels stock version,just incase it goes wonko.
-- https://github.com/spatieman/VU-PixelsMod
 
 # Welcome to Version 1.0.6
 # Last Update: 17-07-2023
