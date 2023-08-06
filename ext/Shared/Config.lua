@@ -16,7 +16,6 @@ Config = {
 			Corpse = true
 		},
 
-		SteadyScopes = true,
 		Assault = {
 			-- tweak M320 & M26
 			Gadgets = true,
@@ -65,10 +64,14 @@ Config = {
 			Recoil = false
 		},
 		Snipers = {
+			-- Tweaked bullet data
+			Bullets = true,
 			-- tweak all sniper rifles
 			Weapons = true,
 			-- tweak all sniper rifles recoil
-			Recoil = false
+			Recoil = true,
+			-- Tweak scopes
+			SteadyScopes = true
 		},
 		LMGs = {
 			-- tweak all LMGs
@@ -132,6 +135,20 @@ Config = {
 		Corpse = true,
 		Knoife = true,
 		PlayerMovement = true,
+
+		-- Bullet tweaks
+		B338Magnum = true,
+		B58x42mmDAP88_Semi = true,
+		B58x42mmDAP88_Semi_Cold = true,
+		B762x39mmWP_Semi = true,
+		B762x39mmWP_Semi_Cold = true,
+		B762x51mmNATO_Bolt = true,
+		B762x51mmNATO_Bolt_SP_Sniper = true,
+		B762x51mmNATO_Semi = true,
+		B762x51mmNATO_Semi_Cold = true,
+		B762x54mmR_Bolt = true,
+		B762x54mmR_semi = true,
+		B762x54mmR_Semi_Cold = true,
 
 		-- SteadyScopes
 		DefaultATSights = true,
