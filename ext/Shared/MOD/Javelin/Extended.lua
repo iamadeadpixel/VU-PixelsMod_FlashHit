@@ -14,7 +14,7 @@ MOD.Javelin = {
 			releaseOnNewTargetTime = 0.5, -- 0.5
 			rayLength = 750.0, -- 500.0
 			lockOnVisibleTargetsOnly = true, -- false
-			acceptanceAngle = 2.0, -- 5.0
+--			acceptanceAngle = 2.0, -- 5.0
 			lockOnEmptyVehicles = false -- true
 		},
 		-- FiringFunctionData
