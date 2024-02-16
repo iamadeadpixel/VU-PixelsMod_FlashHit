@@ -7,7 +7,7 @@ do
 		local s_Options = HttpOptions({}, 10)
 		s_Options.verifyCertificate = false
 
-		local s_Response = Net:GetHTTP("https://raw.githubusercontent.com/spatieman/VU-PixelsMod_FlashHit/main/mod.json", s_Options);
+		local s_Response = Net:GetHTTP("https://raw.githubusercontent.com/iamadeadpixel/VU-PixelsMod_FlashHit/main/mod.json", s_Options);
 
 		if not s_Response or s_Response.status ~= 200 then
 			return
@@ -22,7 +22,7 @@ do
 
 	if s_Version ~= m_ModVersion then
 		print("*******************************************************************************************************");
-		print("** Pixelmod Flashit version seems to be out of date! Please visit https://raw.githubusercontent.com/spatieman/VU-PixelsMod_FlashHit/main/mod.json **");
+		print("** Pixelmod Flashit version seems to be out of date! Please visit https://raw.githubusercontent.com/iamadeadpixel/VU-PixelsMod_FlashHit/main/mod.json **");
 		print('Changed Version on github is (' .. s_Version .. ') - Local version:(' .. m_ModVersion .. ') - Reason for update: (' .. s_Reason .. ')')
 		print("*******************************************************************************************************");
 	else
