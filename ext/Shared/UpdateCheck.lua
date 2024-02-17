@@ -22,7 +22,7 @@ do
 
 	if s_Version ~= m_ModVersion then
 		print("*******************************************************************************************************");
-		print("** Pixelmod Flashit version seems to be out of date! Please visit https://raw.githubusercontent.com/iamadeadpixel/VU-PixelsMod_FlashHit/main/mod.json **");
+		print("** Pixelmod Flashit version seems to be out of date! Please visit https://github.com/iamadeadpixel/VU-PixelsMod_FlashHit **");
 		print('Changed Version on github is (' .. s_Version .. ') - Local version:(' .. m_ModVersion .. ') - Reason for update: (' .. s_Reason .. ')')
 		print("*******************************************************************************************************");
 	else
