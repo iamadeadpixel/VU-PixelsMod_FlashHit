@@ -1,12 +1,12 @@
 {
-    "Name": "Iamadeadpixel's Mod",
+    "Name": "pixelmod revamped",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.7",
-    "Reason": "Sniper bullet tweak",
-    "Authors": [ "iamadeadpixel FlashHit" ],
+    "Version": "2.0.0",
+    "Reason": "merged light and hardcore version and more cool stuff",
+    "Authors": [ "iamadeadpixel" ],
     "HasVeniceEXT": true,
     "Dependencies": {
         "veniceext": "^1.0.0"
     },
-    "Tags": [ "pixelmod2" ]
+    "Tags": [ "pixelmod" ]
 }

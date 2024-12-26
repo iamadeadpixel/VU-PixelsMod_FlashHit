@@ -4,50 +4,66 @@
 - https://github.com/MajorVictory/VU-MajorsMod
 
 ## FlashHit Full revamped and code optimized version
-- This release is now in it own repo instance.
 
-# Modded version:
-## iamadeadpixel
-- Make things go more fun and kinky
-- Full weapon tweak, and tons of other stuff you gonna hate
-- Pixels stock version,just incase it goes wonko.
-- https://github.com/spatieman/VU-PixelsMod
+# Welcome to Version 2.0.0
+# Update: 24-12-2024
+- Full merge from light and the hardcore pixelmod
+- added also the extended gunmaster kill mod (no more borring 2 kills for each weapon)
+- tweaked the reconmod config stuff a bit.
 
-# Welcome to Version 1.0.7
-# Last Update: 06-08-2023
-- Pimped sniper bullets
+# Config stuff
+- Main config file where where the magic begins
+- Shared/config.lua
+- Enabled = true (default) set the mod active.
 
-# Previous Update: 17-07-2023
-- Refixed all RadarSweepComponentData
-- Beefed the M320 smoke pew pew..
+- Content for ByFileName =
+- Gadgets: 3 config files, only ONE can be active !,
+- LandVehicles: 2 config files, only ONE can be active !,
+- PlayerMovement: 3 type config files, default is true
+- RadarSweepData: 2 type config files, default is true
 
-# Previous Update: 15-07-2023
-- Fixed a isue with the radarsweep components for mobile AA's
+- AirVehicles: 2 type config files and 2 useable config files, only ONE can be active !,
 
-# Previous Update: 07-05-2023
-- Instance ID fix for the Javelin
-- Restored default locking data
-- Fixed broken igla and stinger stuff
+- Change only at own risc.
+- Assault: 3 type config files, default is true
+- 3 type config files, only ONE can be active !
 
-# Previous Update: 04-05-2023
-- Update and fix in LandVehicles.lua
+- Engineer: Ammo tweak and recoil tweak
+- PDWs: Ammo tweak and recoil tweak
+- Pistols: Ammo tweak and recoil tweak
+- Snipers: Ammo tweak, recoil tweak, Bullet tweak and zoomedscope movement tweak
+- Support: Ammo tweak and recoil tweak
+- Shotguns: Ammo tweak and recoil tweak
 
-# Previous Update: 03-05-2023
-- Added more pimped vehicle data
+- Content for ByName = {
+- On default everything is enabled, but can be turned off/on for each weapon/item
+- Recomended is not to changed this.
 
-# Previous Update: 29-04-2023
-- Revamped land vehicles, and Air vehicles section.
-- Tweaked Claymore
-- Revamped Igla and Stinger (also a small fix)
-- Increased TOW ammo Sprud-SD and M1128
-- Tweaked Jet ammo
+- Able to enable or disable message spam and mod check if there is a newer version (default true on all)
+- Shared\config2.lua
 
-# Previous Update: 28-04-2023
-- Updated the no-recoil for all shotguns
+# Reconmod stuff
+- Shared\reconmod\config3.lua
+- Default true on all
+- only set true/false on mmPlayers1/2 of you want to see the messages
+- reconmod = true (default), enables the mod.
 
-# Previous Update: 10-12-2022
-- FlasHit update !
-- To get this working as it should be.
-- Use the latest versions for client and server
+- Current setup
+- Assault: Adds a 2nd medkit on 2nd slot,now you can use M320 stuff on the same time !
+- Engineer: Adds the Javelin on the 2nd slot, now you can use javelin with stinger/igla/rpg on the same time !
+- Support: Adds claymore on 1st slot,now you can use claymore AND C4 on the same time.
+- Recon: Adds C4 and Claymores on the 2nd slot (as in BF4) and use them as sniper bruh..
+
+- Do not tweak these 2 files, only when u know what you where doing !
+- Shared\reconmod\MMPlayers1.lua
+- Shared\reconmod\MMPlayers2.lua
 
 
+# Gunmaster stuff
+- true or false to enable/disable the extended kill zones on gunmaster maps
+- Shared\pimped-gunmaster\config4.lua
+
+- Currently u need to make 5 kills (default is 2) to advance to the next weapon.
+- Adjust 1 file, and copy the content to the other lua file (or not)
+- Shared\pimped-gunmaster\GMMap_loader1")
+- Shared\pimped-gunmaster\GMMap_loader2")
