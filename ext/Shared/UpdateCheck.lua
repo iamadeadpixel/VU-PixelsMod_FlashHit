@@ -8,7 +8,7 @@ do
 		local s_Options = HttpOptions({}, 10)
 		s_Options.verifyCertificate = false
 
-		local s_Response = Net:GetHTTP("https://raw.githubusercontent.com/iamadeadpixel/VU-PixelsMod_FlashHit/refs/heads/main/mod.json", s_Options);
+		local s_Response = Net:GetHTTP("https://raw.githubusercontent.com/iamadeadpixel/VU-PixelsMod_Light/main/mod.json", s_Options);
 
 		if not s_Response or s_Response.status ~= 200 then
 			return
@@ -22,14 +22,13 @@ do
 	local s_Version, s_Reason = _GetResponse()
 
 	if s_Version ~= m_ModVersion then
-		print("******************************************************************************************************************");
-		print("** Pixelmod madness version seems to be out of date! **");
-		print("** Please visit https://github.com/iamadeadpixel/VU-PixelsMod_FlashHit/tree/main **");
+		print("*******************************************************************************************************");
+		print("** Pixelmod light version seems to be out of date! Please visit https://github.com/iamadeadpixel/VU-PixelsMod_Light **");
 		print('Changed Version on github is (' .. s_Version .. ') - Local version:(' .. m_ModVersion .. ') - Reason for update: (' .. s_Reason .. ')')
-		print("******************************************************************************************************************");
+		print("*******************************************************************************************************");
 	else
 		print("************************************************************************");
-		print("*************  Pixelmod madness version seems to be up2date  *************");
+		print("*************  Pixelmod light version seems to be up2date  *************");
 		print('Version on github is (' .. s_Version .. ') - Local version:(' .. m_ModVersion .. ')...')
 		print("************************************************************************");
 	end

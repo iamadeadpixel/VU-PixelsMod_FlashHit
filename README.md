@@ -5,65 +5,42 @@
 
 ## FlashHit Full revamped and code optimized version
 
-# Welcome to Version 2.0.0
+# Welcome to Version 2.0.5
+# Update: 31-01-2025
+- full fix for missing gunmaster ammo stuff
+
 # Update: 24-12-2024
 - Full merge from light and the hardcore pixelmod
 - added also the extended gunmaster kill mod (no more borring 2 kills for each weapon)
-- tweaked the reconmod config stuff a bit.
 
-# Config stuff
-- Main config file where where the magic begins
-- Shared/config.lua
-- Enabled = true (default) set the mod active.
+# Light modded version:
+## iamadeadpixel
+- Make things go more fun and kinky
 
-- Content for ByFileName =
-- Gadgets: 3 config files, only ONE can be active !,
-- LandVehicles: 2 config files, only ONE can be active !,
-- PlayerMovement: 3 type config files, default is true
-- RadarSweepData: 2 type config files, default is true
+# Update: 14-02-2024
+- Added the option to enable or disable console spam for weapon load messages and the reconmod spam.
+- check config2.lua and config3.lua for your own presets.
+- on default all are enabled.
 
-- AirVehicles: 2 type config files and 2 useable config files, only ONE can be active !,
+# Update: 13-02-2024
+- Added King of the hill and Heli Superiority to reconmod
 
-- Change only at own risc.
-- Assault: 3 type config files, default is true
-- 3 type config files, only ONE can be active !
+# Update: 16-01-2024 - 1.0.6
+- Engineer is now more kinky
+- Medic is now a kinky..
 
-- Engineer: Ammo tweak and recoil tweak
-- PDWs: Ammo tweak and recoil tweak
-- Pistols: Ammo tweak and recoil tweak
-- Snipers: Ammo tweak, recoil tweak, Bullet tweak and zoomedscope movement tweak
-- Support: Ammo tweak and recoil tweak
-- Shotguns: Ammo tweak and recoil tweak
+# Update: 15-01-2024 - 1.0.4
+- Revamped M320 section, was a bit overkill on the kinky version
 
-- Content for ByName = {
-- On default everything is enabled, but can be turned off/on for each weapon/item
-- Recomended is not to changed this.
+# Update: 06-01-2024 - 1.0.3
+- Removed the range lock from Javelin - Stinger - Igla
+- Added new assault gadget group, but more beefed
 
-- Able to enable or disable message spam and mod check if there is a newer version (default true on all)
-- Shared\config2.lua
-
-# Reconmod stuff
-- Shared\reconmod\config3.lua
-- Default true on all
-- only set true/false on mmPlayers1/2 of you want to see the messages
-- reconmod = true (default), enables the mod.
-
-- Current setup
-- Assault: Adds a 2nd medkit on 2nd slot,now you can use M320 stuff on the same time !
-- Engineer: Adds the Javelin on the 2nd slot, now you can use javelin with stinger/igla/rpg on the same time !
-- Support: Adds claymore on 1st slot,now you can use claymore AND C4 on the same time.
-- Recon: Adds C4 and Claymores on the 2nd slot (as in BF4) and use them as sniper bruh..
-
-- Do not tweak these 2 files, only when u know what you where doing !
-- Shared\reconmod\MMPlayers1.lua
-- Shared\reconmod\MMPlayers2.lua
-
-
-# Gunmaster stuff
-- true or false to enable/disable the extended kill zones on gunmaster maps
-- Shared\pimped-gunmaster\config4.lua
-
-- Currently u need to make 5 kills (default is 2) to advance to the next weapon.
-- Adjust 1 file, and copy the content to the other lua file (or not)
-- Shared\pimped-gunmaster\GMMap_loader1")
-- Shared\pimped-gunmaster\GMMap_loader2")
+# Revamped Update: 14-09-2023 - 1.0.2
+- Fully over worked version from pixelmod2
+- All pimped explosion stuff has be removed.
+- Limited ammo you can carry (still more as default)
+- Limited gadgets content (C4/Mines/RPG etc,etc)
+- merged recon mod in pixelmod light
+- added kinky engineer stuff, now u can use stinger and javelin at the same time !
+- added Claymore as 1st gadget, ammo bag, or claymore

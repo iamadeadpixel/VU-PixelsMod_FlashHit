@@ -1,8 +1,8 @@
 {
     "Name": "pixelmod revamped",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "2.0.0",
-    "Reason": "merged light and hardcore version and more cool stuff",
+    "Version": "2.0.5",
+    "Reason": "Gunmaster ammo fix",
     "Authors": [ "iamadeadpixel" ],
     "HasVeniceEXT": true,
     "Dependencies": {

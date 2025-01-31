@@ -2,17 +2,24 @@ Config = {
 	Enabled = true,
 	ByFileName = { -- This is the directory name
 
+		-- Pimped ammo for gunmaster mode
+		Gunmaster = {
+		-- tweaked gunmaster weapons
+		GMWeapons = true
+		},
+
+
 		Gadgets	= { 
 		-- tweak all type of gadgets - Only ONE can be active 
-		Gadgets = true, --  (ONLY ONE CAN BE ACTIVE)
+		Gadgets = false, --  (ONLY ONE CAN BE ACTIVE)
 		Gadgets_kinky = false, --  (ONLY ONE CAN BE ACTIVE)
-		Gadgets_kinky_heavy = false, --  (ONLY ONE CAN BE ACTIVE)
+		Gadgets_kinky_heavy = true, --  (ONLY ONE CAN BE ACTIVE)
 		},
 
 		LandVehicles = {
 		-- tweak vehicles
-		LandVehicles_beefed = false, --  (ONLY ONE CAN BE ACTIVE)
-		LandVehicles_light = true --  (ONLY ONE CAN BE ACTIVE)
+		LandVehicles_beefed = true, --  (ONLY ONE CAN BE ACTIVE)
+		LandVehicles_light = false --  (ONLY ONE CAN BE ACTIVE)
 		},
 
 		PlayerMovement = { -- (OK)
@@ -35,15 +42,15 @@ Config = {
 			-- tweak heli movement
 			Movement = true,
 			-- tweak heli & jet & Gun ship weapons
-			Weapons_Beefed = true, --  (ONLY ONE CAN BE ACTIVE)
-			Weapons_Crazy = false --  (ONLY ONE CAN BE ACTIVE)
+			Weapons_Beefed = false, --  (ONLY ONE CAN BE ACTIVE)
+			Weapons_Crazy = true --  (ONLY ONE CAN BE ACTIVE)
 		},
 
 		Assault = {
 			-- tweak M320 & M26 (ONLY ONE CAN BE ACTIVE)
-			Gadgets_light = true, --  (ONLY ONE CAN BE ACTIVE)
+			Gadgets_light = false, --  (ONLY ONE CAN BE ACTIVE)
 			Gadgets_beefed = false, --  (ONLY ONE CAN BE ACTIVE)
-			Gadgets_kinky = false, --  (ONLY ONE CAN BE ACTIVE)
+			Gadgets_kinky = true, --  (ONLY ONE CAN BE ACTIVE)
 			-- tweak all assault rifles
 			Weapons = true,
 			-- tweak all recoil (false is recoil, true is no recoil)
@@ -78,9 +85,9 @@ Config = {
 			-- tweak all sniper rifles
 			Weapons = true,
 			-- tweak all recoil (false is recoil, true is no recoil)
-			Recoil = false,
+			Recoil = true,
 		-- No movement for sniperscopes ?
-			SteadyScopes = false
+			SteadyScopes = true
 		},
 
 		Support = {
@@ -101,7 +108,7 @@ Config = {
 	},
 
 	ByName = {
-		-- Player stuff (OK)
+		-- Player stuff
 		-- Directory: PlayerMovement
 		Corpse = true,
 		Knoife = true,
@@ -131,6 +138,17 @@ Config = {
 		M416 = true,
 		SCARL = true,
 
+		-- Modded GM stuff
+		AK74gm = true,
+		AUGA3gm = true,
+		F2000gm = true,
+		FAMASgm = true,
+		G3A3gm = true,
+		L85A2gm = true,
+		M16A4gm = true,
+		M416gm = true,
+		SCARLgm = true,
+
 		-- Assault Rifles recoil (false is recoil, true is no recoil) (OK)
 		AEK971_Recoil = true,
 		AK74_Recoil = true,
@@ -157,6 +175,13 @@ Config = {
 		SCARH = true,
 		SG553 = true,
 
+		-- Modded GM stuff
+		ACWRgm = true,
+		AKS74Ugm = true,
+		G36Cgm = true,
+		M4A1gm = true,
+		MTARgm = true,
+
 		-- Engineer Rifles recoil (false is recoil, true is no recoil) (OK)
 		A91_Recoil = true,
 		ACWR_Recoil = true,
@@ -168,7 +193,6 @@ Config = {
 		QBZ95_Recoil = true,
 		SCARH_Recoil = true,
 		SG553_Recoil = true,
-
 
 		-- LMGs / Support (increase ammo) (OK)
 		L86A2 = true,
@@ -182,6 +206,16 @@ Config = {
 		QBB95 = true,
 		RPK74M = true,
 		Type88 = true,
+
+		-- Modded GM stuff
+		L86A2gm = true,
+		LSATgm = true,
+		M240Bgm = true,
+		M249gm = true,
+		M60E4gm = true,
+		MG36gm = true,
+		QBB95gm = true,
+		RPK74Mgm = true,
 
 		-- Support Rifles recoil (false is recoil, true is no recoil) (OK)
 		L86A2_Recoil = true,
@@ -208,6 +242,18 @@ Config = {
 		SKS = true,
 		SV98 = true,
 		SVD = true,
+
+		-- Modded GM stuff
+		JNG90gm = true,
+		L96gm = true,
+		M40A5gm = true,
+		M417gm = true,
+		M98Bgm = true,
+		MK11gm = true,
+		QBU88gm = true,
+		SKSgm = true,
+		SV98gm = true,
+		SVDgm = true,
 
 		-- Sniper Bullet tweaks (no more gravity) (OK)
 		B338Magnum = true,
@@ -256,7 +302,6 @@ Config = {
 		X2FastZoom = true,
 		FastIronSights = true,
 
-
 		-- PDWs (increase ammo) (OK)
 		ASVAL = true,
 		MP5K = true,
@@ -266,6 +311,16 @@ Config = {
 		PP19 = true,
 		PP2000 = true,
 		UMP45 = true,
+
+		-- Modded GM stuff
+		ASVALgm = true,
+		MP5Kgm = true,
+		MP7gm = true,
+		P90gm = true,
+		PDWRgm = true,
+		PP19gm = true,
+		PP2000gm = true,
+		UMP45gm = true,
 
 		-- PDW recoil (false is recoil, true is no recoil) (OK)
 		ASVAL_Recoil = true,
@@ -286,6 +341,14 @@ Config = {
 		SPAS12 = true,
 		USAS12 = true,
 
+		-- Modded GM stuff
+		DAO12gm = true,
+		M1014gm = true,
+		MK3A1gm = true,
+		Remington_870MCSgm = true,
+		SAIGA12Kgm = true,
+		SPAS12gm = true,
+
 		-- Shotgun Bullets (OK)
 		Shotgun_Buckshot = true,
 		Shotgun_Flechette = true,
@@ -303,7 +366,6 @@ Config = {
 		SAIGA12K_Recoil = true,
 		SPAS12_Recoil = true,
 
-
 		-- Pistols (increase ammo) (OK)
 		G18 = true,
 		M1911 = true,
@@ -312,6 +374,16 @@ Config = {
 		MAGNUM44 = true,
 		MP412REX = true,
 		MP443 = true,
+
+		-- Modded GM stuff
+		MP443gm = true,
+		MAGNUM44gm = true,
+		M93Rgm = true,
+		M9gm = true,
+		M9gmsi = true,
+		M1911gm = true,
+		G18gm = true,
+		MP412REXgm = true,
 
 		-- Pistols recoil (false is recoil, true is no recoil) (OK)
 		G18_Recoil = true,
