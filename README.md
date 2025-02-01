@@ -8,6 +8,28 @@
 # Welcome to Version 2.0.5
 # Update: 31-01-2025
 - full fix for missing gunmaster ammo stuff
+- What is what....
+
+- \Shared\config
+- This is the main config where you can enable,or disable weapon/gadget/vehicle tweaks
+- on default all are disabled, you can/need to enable stuff you want to pimp.
+
+- \Shared\config2
+- Here you can enable or disable message printed in the console
+
+- \Shared\reconmod\config3
+- Here you can enable or disable the reconmod
+- Reconmod allows more secondary gadget for assault,engineer,support and recon
+- On default it is disabled.
+
+- \Shared\pimped-gunmaster\config4
+- Here you can enable or disable the pimped gunmaster mod
+- This bypasses the default kill ration needed on gunmaster
+- on default you need 2 kill to proceed to the next weapon
+- When enabled (default is disabled) you need 5 kills, and 2 knife kills.
+- You can edit GMMap_loader1.lua and GMMap_loader2.lua to adjust your own kill ratio
+- On default it is disabled.
+
 
 # Update: 24-12-2024
 - Full merge from light and the hardcore pixelmod

@@ -1,72 +1,101 @@
 Config = {
-	Enabled = true,
+	Enabled = false, -- When false, the mod is disabled
 	ByFileName = { -- This is the directory name
 
 		-- Pimped ammo for gunmaster mode
-		Gunmaster = {
+		Gunmaster = { 
 		-- tweaked gunmaster weapons
-		GMWeapons = true
+		-- When false, on Gun Master mode
+		-- All weapons have the default ammo count.
+		GMWeapons = false
 		},
 
 
 		Gadgets	= { 
 		-- tweak all type of gadgets - Only ONE can be active 
+		-- Minor tweaks on gadgets
 		Gadgets = false, --  (ONLY ONE CAN BE ACTIVE)
+
+		-- Medium tweaks
 		Gadgets_kinky = false, --  (ONLY ONE CAN BE ACTIVE)
-		Gadgets_kinky_heavy = true, --  (ONLY ONE CAN BE ACTIVE)
+
+		-- Heavy tweaks, use with care,hehe.
+		Gadgets_kinky_heavy = false, --  (ONLY ONE CAN BE ACTIVE)
 		},
 
 		LandVehicles = {
 		-- tweak vehicles
-		LandVehicles_beefed = true, --  (ONLY ONE CAN BE ACTIVE)
+
+		-- Medium tweaks on vehicles
+		LandVehicles_beefed = false, --  (ONLY ONE CAN BE ACTIVE)
+
+		-- Minor tweaks on vehicles
 		LandVehicles_light = false --  (ONLY ONE CAN BE ACTIVE)
 		},
 
-		PlayerMovement = { -- (OK)
+		PlayerMovement = {
 			-- tweak player movement
-			PlayerMovement = true,
+			-- You walk and run 20% faster
+			-- jump 15% higher
+			-- climbing 15% faster
+			-- swims 15% fast
+			PlayerMovement = false,
+
 			-- tweak the melee
-			Knoife = true,
+			-- More easy to knife a enemy
+			Knoife = false,
+
 			-- tweak your poor corpse
-			Corpse = true
+			-- A corpse wil stay longer on the map
+			Corpse = false
 		},
 
-		RadarSweepData = { -- (OK)
+		RadarSweepData = {
 			-- Sweepdata tweaks
-			RSD_Air = true,
-			RSD_Land = true
+			-- when using area sweep, 3x more scan range
+			RSD_Air = false,
+			RSD_Land = false
 		},
 
 		-- tweak AirVehicles
 		AirVehicles = {
 			-- tweak heli movement
-			Movement = true,
+			Movement = false,
+
 			-- tweak heli & jet & Gun ship weapons
 			Weapons_Beefed = false, --  (ONLY ONE CAN BE ACTIVE)
-			Weapons_Crazy = true --  (ONLY ONE CAN BE ACTIVE)
+			Weapons_Crazy = false --  (ONLY ONE CAN BE ACTIVE)
 		},
 
 		Assault = {
 			-- tweak M320 & M26 (ONLY ONE CAN BE ACTIVE)
+			-- Make thing go more boom
 			Gadgets_light = false, --  (ONLY ONE CAN BE ACTIVE)
 			Gadgets_beefed = false, --  (ONLY ONE CAN BE ACTIVE)
-			Gadgets_kinky = true, --  (ONLY ONE CAN BE ACTIVE)
+			Gadgets_kinky = false, --  (ONLY ONE CAN BE ACTIVE)
+
 			-- tweak all assault rifles
-			Weapons = true,
+			-- more ammo !!
+			Weapons = false,
+
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		},
 
 		Engineer = {
 			-- tweak Engineer rifles
-			Weapons = true,
+			-- more ammo !!
+			Weapons = false,
+
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		},
 
 		PDWs = {
 			-- tweak PDWs
+			-- more ammo !!
 			Weapons = true,
+
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		},
@@ -74,34 +103,45 @@ Config = {
 
 		Pistols = {
 			-- tweak all handguns/pistols
-			Weapons = true,
+			-- more ammo !!
+			Weapons = false,
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		},
 
 		Snipers = {
 			-- Tweaked bullet data
-			Bullets = true,
+			-- No gravity isues !
+			Bullets = false,
+
 			-- tweak all sniper rifles
-			Weapons = true,
+			-- more ammo !!
+			Weapons = false,
+
 			-- tweak all recoil (false is recoil, true is no recoil)
-			Recoil = true,
-		-- No movement for sniperscopes ?
-			SteadyScopes = true
+			Recoil = false,
+
+			-- No bouncing for sniperscopes
+			SteadyScopes = false
 		},
 
 		Support = {
 			-- tweak all LMGs
-			Weapons = true,
+			-- more ammo !!
+			Weapons = false,
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 			},
 
 		Shotguns = {
 			-- tweak all shotgun bullet types
-			Bullets = true,
+			-- No gravity isues !
+			Bullets = false,
+
 			-- tweak all shotguns
-			Weapons = true,
+			-- more ammo !!
+			Weapons = false,
+
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		}
@@ -399,7 +439,6 @@ Config = {
 		Crossbow_BA = true,
 		Crossbow_Default = true,
 		Crossbow_HE = true,
---		Crossbow_HE_gravity = true,
 		Crossbow_Scan = true,
 
 		-- Gadgets (OK)
