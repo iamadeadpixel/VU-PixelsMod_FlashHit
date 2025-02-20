@@ -5,7 +5,11 @@
 
 ## FlashHit Full revamped and code optimized version
 
-# Welcome to Version 2.0.5
+# Welcome to Version 2.0.6
+# Update: 29-02-2025
+- Added missing Gun Master stuff for M320, C4, RPG,SMAW, Crossbow
+- ammo fix for RPG
+
 # Update: 31-01-2025
 - full fix for missing gunmaster ammo stuff
 - What is what....

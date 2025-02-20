@@ -188,6 +188,7 @@ Config = {
 		M16A4gm = true,
 		M416gm = true,
 		SCARLgm = true,
+		M320gm = true,
 
 		-- Assault Rifles recoil (false is recoil, true is no recoil) (OK)
 		AEK971_Recoil = true,
@@ -221,6 +222,8 @@ Config = {
 		G36Cgm = true,
 		M4A1gm = true,
 		MTARgm = true,
+		SMAWgm = true,
+		RPGgm = true,
 
 		-- Engineer Rifles recoil (false is recoil, true is no recoil) (OK)
 		A91_Recoil = true,
@@ -256,6 +259,7 @@ Config = {
 		MG36gm = true,
 		QBB95gm = true,
 		RPK74Mgm = true,
+		C4gm = true,
 
 		-- Support Rifles recoil (false is recoil, true is no recoil) (OK)
 		L86A2_Recoil = true,
@@ -440,6 +444,7 @@ Config = {
 		Crossbow_Default = true,
 		Crossbow_HE = true,
 		Crossbow_Scan = true,
+		Crossbowgm = true,
 
 		-- Gadgets (OK)
 		AA_Weapon_Missile = true,

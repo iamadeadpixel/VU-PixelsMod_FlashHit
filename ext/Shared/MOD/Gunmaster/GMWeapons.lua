@@ -710,156 +710,60 @@ MOD.MTARgm = {
 -- ----------
 -- Gadgets
 -- Disabled by now, this needs more tweaking, or use the gadgets beefed stuff
---[[
 MOD.SMAWgm = {
-	-- Weapons/SMAW/SMAW_HE_Projectile
-	["168F529B-17F6-11E0-8CD8-85483A75A7C5"] = {
-		-- MissileEntityData
-		["168F529C-17F6-11E0-8CD8-85483A75A7C5"] = {
-			initialSpeed = 500.0, -- 350.0
-			timeToLive = 8.0, -- 10.0
-			gravity = 0.0 -- -1.5
-		}
-	},
 	-- Weapons/SMAW/SMAW
 	["BCE98CA0-17EC-11E0-8CD8-85483A75A7C5"] = {
-		-- FiringFunctionData
-		["AB8577C5-D5F9-4A17-BEB2-2E153E171630"] = {
-			ammo = {
-				magazineCapacity = 1, -- 1
-				numberOfMagazines = 7, -- 4
-				autoReplenishDelay = 1.5, -- 5.0
-				ammoBagPickupDelayMultiplier = 1.5 -- 2.5
+		-- WeaponMagazineModifier
+		["257AC72E-715C-4A29-86F1-05B5C57EE6B0"] = {
+				magazineCapacity = 3, -- 1
+				numberOfMagazines = -1 -- 4
 			}
 		}
 	}
-}
-]]
 -- ----------
---[[
 MOD.RPGgm = {
-	-- Weapons/RPG7/RPG7Projectile
-	["6C857FD9-6FB3-11DE-B35E-864CF572E1C4"] = {
-		-- MissileEntityData
-		["CDD3A384-8243-A258-E23D-239CC0D52698"] = {
-			initialSpeed = 500.0, -- 350.0
-			timeToLive = 8.0, -- 10.0
-			gravity = 0.0 -- -1.5
-		}
-	},
 	-- Weapons/RPG7/RPG7
 	["E7F8EC1A-E8F5-11DF-AC96-84E6B0EFF32E"] = {
-		-- FiringFunctionData
-		["7584D16E-6B77-4A7B-BEEE-15DA5EF98E2E"] = {
-			ammo = {
-				magazineCapacity = 1, -- 1
-				numberOfMagazines = 7, -- 4
-				autoReplenishDelay = 1.5, -- 5.0
-				ammoBagPickupDelayMultiplier = 1.5 -- 2.5
+		-- WeaponMagazineModifier
+		["5EAD507A-22E6-4855-976E-DF24FAFEB248"] = {
+				magazineCapacity = 3, -- 1
+				numberOfMagazines = -1 -- 4
 			}
 		}
 	}
-}
-]]
 
 -- ----------
---[[
 MOD.C4gm = {
 	-- Weapons/Gadgets/C4/C4
 	["90D317AC-2554-11E0-9BE1-9E3A551FF0D1"] = {
-		-- FiringFunctionData
-		["6CF717B6-188A-4AE7-A1D2-CC1A2333C0D7"] = {
-			ammo = {
-				numberOfMagazines = 12, -- 3
-				autoReplenishDelay = 1.5, -- 5.0
-				ammoBagPickupDelayMultiplier = 1.5 -- 2.5
-			},
-			fireLogic = {
-				rateOfFire = 250.0 -- 90.0
+		-- WeaponMagazineModifier
+		["F9F11616-045E-4051-96B4-6011AE7D3F4E"] = {
+				magazineCapacity = 5, -- 1
+				numberOfMagazines = -1 -- 4
 			}
 		}
-	},
-	-- Weapons/Gadgets/C4/C4_Projectile
-	["910AD7C5-2558-11E0-96DC-FF63A5537869"] = {
-		-- ExplosionPackEntityData
-		["09DCA5BB-BB2E-4EC6-B07F-5F74863EB458"] = {
-			maxCount = 12, -- 6
-			health = 1.0 -- 15.0
-		}
 	}
-}
-]]
 -- ----------
---[[
 MOD.Crossbowgm = {
 	-- Weapons/XP4_Crossbow_Prototype/XP4_Crossbow_Prototype
 	["EEEC6E85-6A26-4C51-842E-55C5B75DE9DC"] = {
-		-- FiringFunctionData
-		["408C21F4-6D2F-41D8-AB92-D79141A3645E"] = {
-			ammo = {
-				magazineCapacity = 1, -- 1
-				numberOfMagazines = 16 -- 10
+		-- WeaponMagazineModifier
+		["99B315BF-7050-4884-ABEA-72CC63B7DCF5"] = {
+				magazineCapacity = 3, -- 1
+				numberOfMagazines = -1 -- 10
 			}
 		}
 	}
-}
-]]
 -- ----------
---[[
-MOD.M320_LVGgm = {
-	-- Weapons/Gadgets/M320/40mm_LVG_Firing
-	["0782833F-E28E-417F-8D25-350D504EBEAA"] = {
-		-- FiringFunctionData
-		["B287AFC7-2597-4C5A-A2B8-D0F8D43018C4"] = {
-			ammo = {
-				magazineCapacity = 1, -- 1
-				numberOfMagazines = 12 -- 4
-			},
-			shot = {
-				numberOfBulletsPerShell = 5, -- 1
-				numberOfBulletsPerShot = 2 -- 1
+MOD.M320gm = {
+	-- Weapons/Gadgets/M320/m320
+	["A2BD3F80-0474-11E0-8A24-DDC0A9242026"] = {
+		-- WeaponMagazineModifier
+		["C1A6A581-0982-45A4-A9D2-45A54158366E"] = {
+				magazineCapacity = 3, -- 1
+				numberOfMagazines = -1 -- 10
 			}
 		}
-	},
-	-- Weapons/Gadgets/M320/40mmLowVelocityGrenade
-	["FD79A08F-F108-4751-B2C0-6C47397133B5"] = {
-		-- GrenadeEntityData
-		["393E4094-C2A2-4DF2-B977-F82E6974A8CB"] = {
-			gravity = -0, -- -15.0
-			timeToLive = 3, -- 2.5
-			initialSpeed = 900.0, -- 350.0
-			detonateOnTimeout = true -- False
-		}
 	}
-}
-]]
 -- ----------
---[[
-MOD.M320_HEgm = {
-	-- Weapons/Gadgets/M320/40mm_HE_Firing
-	["D99AA0F1-2694-40C8-91EB-5235FFEBAC71"] = {
-		-- FiringFunctionData
-		["99CE0D31-86A1-4478-9B9E-CC1EFD072AB9"] = {
-			ammo = {
-				magazineCapacity = 1, -- 1
-				numberOfMagazines = 12 -- 4
-			},
-			shot = {
-				numberOfBulletsPerShell = 5, -- 1
-				numberOfBulletsPerShot = 2 -- 1
-			}
-		}
-	},
-	-- Weapons/Gadgets/M320/40mmGrenade.txt
-	["D37476C2-3A86-11E0-BC25-D51252D5A427"] = {
-		-- BulletEntityData
-		["CEC6D381-72DE-B7D4-E998-0D566E0575C6"] = {
-			gravity = -0.5, -- -7.2
-			timeToLive = 3.0, -- 0.0
-			initialSpeed = 900.0, -- 350.0
-			detonateOnTimeout = true -- False
-		}
-	}
-}
-]]
--- ----------
+
