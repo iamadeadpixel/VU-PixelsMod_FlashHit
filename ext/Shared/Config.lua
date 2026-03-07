@@ -506,6 +506,9 @@ Config = {
 		MAV_EMP_EXP_data = true,
 		MAV_Default_EXP_data = true,
 		MAV_Jammer_fireing = true,
+		MAV_Raylength_data = true,
+		MAV_spotdistance_data = true,
+		MAV_spottime_data = true,
 
 		-- LandVehicles (OK)
 		AAV_7A1 = true,
