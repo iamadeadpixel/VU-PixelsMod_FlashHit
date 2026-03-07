@@ -429,6 +429,48 @@ MOD.MAV_Default_EXP_data = {
 	}
 }
 
+MOD.MAV_Raylength_data = {
+-- Local Path: !Gadgets\MAV
+-- Filename: MAV.txt
+-- Entity data: LockingControllerData
+-- Works on: MAV
+	["FDE06FAE-1D63-11E0-8A6F-FC9481BB4D51"] = {
+		-- LockingControllerData
+		["9D4B52C4-AF56-45EB-8597-E9930DFB77F2"] = {
+		rayLength = 900 -- 400.0
+		}
+	}
+}
+
+MOD.MAV_spotdistance_data = {
+-- Local Path: !Gadgets\MAV
+-- Filename: MAV.txt
+-- Entity data: SpottingComponentData
+-- Works on: MAV
+	["FDE06FAE-1D63-11E0-8A6F-FC9481BB4D51"] = {
+		-- SpottingComponentData
+		["46328A3D-D55E-4335-8799-1BEA04F93C66"] = {
+		spottingDistance = 1800 -- 1200.0
+		}
+	}
+}
+
+MOD.MAV_spottime_data = {
+-- Local Path: !Gadgets\MAV
+-- Filename: MAV.txt
+-- Entity data: SpottingTargetComponentData
+-- Works on: MAV
+	["FDE06FAE-1D63-11E0-8A6F-FC9481BB4D51"] = {
+		-- SpottingTargetComponentData
+		["0862E644-B509-4144-819E-C06961EEF58D"] = {
+		activeSpottedTime = 90, -- 15.0
+		passiveSpottedTime = 45 -- 5.0
+
+		}
+	}
+}
+
+
 -- ----------------------------------------
 
 MOD.MAV_Jammer_fireing = {
