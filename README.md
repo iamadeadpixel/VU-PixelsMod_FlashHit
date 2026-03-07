@@ -6,6 +6,8 @@
 ## FlashHit Full revamped and code optimized version
 ## Welcome to pixelmod madness!
 
+# DEV version are randomly updated, use at own risc
+
 # Welcome to Version 2.5.0
 # Update: 7-03-2026
 - Revamp and fixing ammo data
