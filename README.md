@@ -4,8 +4,24 @@
 - https://github.com/MajorVictory/VU-MajorsMod
 
 ## FlashHit Full revamped and code optimized version
+## Welcome to pixelmod madness!
 
-# Welcome to Version 2.0.5
+# Welcome to Version 2.5.0
+# Update: 7-03-2026
+- Revamp and fixing ammo data
+- Added and split config type to select difrent damage/ammo type
+- light and custom type
+- custom type if you want to tweak the crap out of it.
+- light type what is slightly beefed
+- Added some nice MAV stuff :)
+
+# Update: 17-02-2026
+- Streamlining config stuff & removal barly used stuff
+
+# Update: 29-02-2025
+- Added missing Gun Master stuff for M320, C4, RPG,SMAW, Crossbow
+- ammo fix for RPG
+
 # Update: 31-01-2025
 - full fix for missing gunmaster ammo stuff
 - What is what....
