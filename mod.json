@@ -1,8 +1,8 @@
 {
     "Name": "pixelmod revamped",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "2.5.0",
-    "Reason": "Revamp",
+    "Version": "2.5.1",
+    "Reason": "Ammo Revamp",
     "Authors": [ "iamadeadpixel" ],
     "HasVeniceEXT": true,
     "Dependencies": {

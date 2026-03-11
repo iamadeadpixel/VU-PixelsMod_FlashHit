@@ -4,14 +4,14 @@ MOD.ASVAL = {
 		-- FiringFunctionData
 		["808AB537-87CF-4997-B6AD-B11111EE19C4"] = {
 			ammo = {
-				magazineCapacity = 60, -- 21
-				numberOfMagazines = 10 -- 6
+				magazineCapacity = 50, -- 21
+				numberOfMagazines = 4 -- 6
 			}
 		},
 		-- WeaponMagazineModifier
 		["78558645-66EE-4699-B25A-05ED97A97487"] = {
-			magazineCapacity = 60, -- 31
-			numberOfMagazines = 10 -- 4
+			magazineCapacity = 55, -- 31
+			numberOfMagazines = 5 -- 4
 		}
 	}
 }
@@ -21,14 +21,14 @@ MOD.MP5K = {
 		-- FiringFunctionData
 		["DBF391F1-A554-4EF0-A2BC-25DDA7F2298C"] = {
 			ammo = {
-				magazineCapacity = 60, -- 21
-				numberOfMagazines = 10 -- 6
+				magazineCapacity = 50, -- 21
+				numberOfMagazines = 4 -- 6
 			}
 		},
 		-- WeaponMagazineModifier
 		["1240EE17-948A-4245-B7BD-E7F5FA1EF0B0"] = {
-			magazineCapacity = 60, -- 31
-			numberOfMagazines = 10 -- 4
+			magazineCapacity = 55, -- 31
+			numberOfMagazines = 5 -- 4
 		}
 	}
 }
@@ -38,14 +38,14 @@ MOD.MP7 = {
 		-- FiringFunctionData
 		["FD1B70F6-0E01-4698-874D-DD4B19CC550D"] = {
 			ammo = {
-				magazineCapacity = 60, -- 21
-				numberOfMagazines = 10 -- 6
+				magazineCapacity = 50, -- 21
+				numberOfMagazines = 4 -- 6
 			}
 		},
 		-- WeaponMagazineModifier
 		["E9CE6474-4004-4692-BCF4-536170128B7C"] = {
-			magazineCapacity = 60, -- 41
-			numberOfMagazines = 10 -- 3
+			magazineCapacity = 55, -- 41
+			numberOfMagazines = 5 -- 3
 		}
 	}
 }
@@ -55,15 +55,15 @@ MOD.P90 = {
 		-- FiringFunctionData
 		["9629652F-135E-4EE6-A9FB-343D947A4861"] = {
 			ammo = {
-				magazineCapacity = 60, -- 51
-				numberOfMagazines = 10 -- 3
+				magazineCapacity = 50, -- 51
+				numberOfMagazines = 4 -- 3
 			}
 		},
-		-- FiringFunctionData (AI)
+		-- FiringFunctionData (Ext mag ?)
 		["6DE2965E-F31E-4A71-B8AC-36DE4E07E993"] = {
 			ammo = {
-				magazineCapacity = 60, -- 102
-				numberOfMagazines = 10 -- 3
+				magazineCapacity = 55, -- 102
+				numberOfMagazines = 5 -- 3
 			}
 		}
 	}
@@ -74,26 +74,14 @@ MOD.PDWR = {
 		-- FiringFunctionData
 		["EA2D2761-E274-4836-8C92-9825594A879C"] = {
 			ammo = {
-				magazineCapacity = 60, -- 21
-				numberOfMagazines = 10 -- 6
+				magazineCapacity = 50, -- 21
+				numberOfMagazines = 4 -- 6
 			}
 		},
 		-- WeaponMagazineModifier
 		["343087A5-14B9-4E4D-A60C-0AE894392BB5"] = {
-			magazineCapacity = 60, -- 31
-			numberOfMagazines = 10 -- 4
-		}
-	}
-}
-MOD.PP19 = {
-	-- Weapons/XP1_PP-19/PP-19
-	["983A236F-22EB-11E0-87CC-DAB15BD78BE2"] = {
-		-- FiringFunctionData
-		["68808EAD-C07B-4642-B97A-C0B49D55AAB5"] = {
-			ammo = {
-				magazineCapacity = 60, -- 55
-				numberOfMagazines = 5 -- 3
-			}
+			magazineCapacity = 55, -- 31
+			numberOfMagazines = 5 -- 4
 		}
 	}
 }
@@ -103,25 +91,38 @@ MOD.PP2000 = {
 		-- FiringFunctionData
 		["F1DBB6DF-FAAC-4B70-A7EA-2D40068C5CCF"] = {
 			ammo = {
-				magazineCapacity = 60, -- 21
-				numberOfMagazines = 10 -- 6
+				magazineCapacity = 50, -- 21
+				numberOfMagazines = 4 -- 6
 			}
 		},
 		-- WeaponMagazineModifier
 		["E3DCB733-CB32-48B2-8942-4A4AE37CD95C"] = {
-			magazineCapacity = 60, -- 41
-			numberOfMagazines = 10 -- 3
+			magazineCapacity = 55, -- 41
+			numberOfMagazines = 5 -- 3
 		}
 	}
 }
+
 MOD.UMP45 = {
 	-- Weapons/UMP45/UMP45
 	["13D445F7-EBE3-11DF-91EC-895E59A6915B"] = {
 		-- FiringFunctionData
 		["4506ABFE-4F34-48BE-A724-C97DA9BA46B4"] = {
 			ammo = {
-				magazineCapacity = 60, -- 26
-				numberOfMagazines = 10 -- 5
+				magazineCapacity = 50, -- 26
+				numberOfMagazines = 4 -- 5
+			}
+		}
+	}
+}
+MOD.PP19 = {
+	-- Weapons/XP1_PP-19/PP-19
+	["983A236F-22EB-11E0-87CC-DAB15BD78BE2"] = {
+		-- FiringFunctionData
+		["68808EAD-C07B-4642-B97A-C0B49D55AAB5"] = {
+			ammo = {
+				magazineCapacity = 50, -- 55
+				numberOfMagazines = 4 -- 3
 			}
 		}
 	}

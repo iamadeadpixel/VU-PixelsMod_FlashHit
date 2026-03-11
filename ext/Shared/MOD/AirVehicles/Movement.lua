@@ -1,5 +1,6 @@
 MOD.AH1Z = {
-	-- Vehicles/AH1Z/AH1Z
+	-- Path: Vehicles/AH1Z
+	-- Filename: AH1Z.txt
 	["643135EA-6CA7-11DF-B6FA-F715AA601362"] = {
 		-- PropellerEngineConfigData
 		["DE4BF5C6-4EC4-45BE-9FDB-D71391F7D39B"] = {
@@ -15,6 +16,25 @@ MOD.AH1Z = {
 		}
 	}
 }
+
+MOD.MI28 = {
+	-- Vehicles/Mi28/Mi28.txt
+	["89BE53B6-2FF4-11DE-8C23-DAB1D69416DE"] = {
+		-- PropellerEngineConfigData
+		["89BEA1FD-2FF4-11DE-8C23-DAB1D69416DE"] = {
+			enginePowerMultiplier = 1.5, -- 1.0
+			forceMagnitudeMultiplier = 3.0, -- 2.0
+			spForwardStrength = 30.0, -- 30.0
+			spSidewaysStrength = 15.0, -- 10.0
+			spVerticalStrength = 20.0 -- 10.0
+		},
+		-- RotorParameters
+		["89BEA1FE-2FF4-11DE-8C23-DAB1D69416DE"] = {
+			horizontalForceModifier = 2.0 -- 1.5
+		}
+	}
+}
+
 MOD.AH6 = {
 	-- Vehicles/AH6/AH6_Littlebird
 	["FD8AB747-FF4D-11DD-A7B1-F7C6DEEC9D32"] = {
@@ -49,23 +69,7 @@ MOD.KA60 = {
 		}
 	}
 }
-MOD.MI28 = {
-	-- Vehicles/Mi28/Mi28
-	["89BE53B6-2FF4-11DE-8C23-DAB1D69416DE"] = {
-		-- PropellerEngineConfigData
-		["89BEA1FD-2FF4-11DE-8C23-DAB1D69416DE"] = {
-			enginePowerMultiplier = 1.5, -- 1.0
-			forceMagnitudeMultiplier = 3.0, -- 2.0
-			spForwardStrength = 30.0, -- 30.0
-			spSidewaysStrength = 15.0, -- 10.0
-			spVerticalStrength = 20.0 -- 10.0
-		},
-		-- RotorParameters
-		["89BEA1FE-2FF4-11DE-8C23-DAB1D69416DE"] = {
-			horizontalForceModifier = 2.0 -- 1.5
-		}
-	}
-}
+
 MOD.VENOM = {
 	-- Vehicles/Venom/Venom
 	["97945D87-011D-11E0-B97C-FC495C335A52"] = {
