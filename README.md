@@ -8,7 +8,11 @@
 
 # DEV version are randomly updated, use at own risc
 
-# Welcome to Version 2.5.1
+# Welcome to Version 2.5.2
+# Update: 17-03-2026
+- Decreased lock range for igla/stinger and Javelin
+
+# Version 2.5.1
 # Update: 11-03-2026
 -
 - ALL ammo tweaks should work as it is
