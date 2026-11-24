@@ -4,8 +4,85 @@
 - https://github.com/MajorVictory/VU-MajorsMod
 
 ## FlashHit Full revamped and code optimized version
+## Welcome to pixelmod madness!
 
-# Welcome to Version 2.0.6
+# DEV version are randomly updated, use at own risc
+
+
+
+# Welcome to Version 2.5.2
+# Update: 17-03-2026
+- Decrease lock range stinger/igla and Javelin
+
+# Version 2.5.1
+# Update: 11-03-2026
+-
+- ALL ammo tweaks should work as it is
+- Vamped handguns
+- MagazineCapacity was 30, is now 50
+- NumberOfMagazines was 10, is now 4
+-
+- Shotguns:
+- MagazineCapacity was 25, is now 15
+- NumberOfMagazines was 10, is now 4
+- Weaponmagazinemodifier (Extended magazine):
+- MagazineCapacity was 50, is now 30
+- NumberOfMagazines was 10, is now 3
+-
+- Vamped Sniper rifles
+- MagazineCapacity was 120, is now 50
+- NumberOfMagazines was 4, is now 3
+- Added a Weaponmagazinemodifier
+- In basic, on pickup, new clipsize is 40 with 2 spare clips.
+-
+- Vamped Support weapons
+- M27IAR:
+- MagazineCapacity was 60, is now 50
+- NumberOfMagazines was 10, is now 4
+- Weaponmagazinemodifier:
+- MagazineCapacity was 60, is now 40
+- NumberOfMagazines was 10, is now 4
+-
+- All other Heavymachineguns:
+- MagazineCapacity was 360, is now 250
+- NumberOfMagazines was 10, is now 4
+- Weaponmagazinemodifier :
+- MagazineCapacity was 360, is now 200
+- NumberOfMagazines was 10, is now 3
+-
+- PDW (all class)
+- MagazineCapacity was 60, is now 50
+- NumberOfMagazines was 10, is now 4
+- Weaponmagazinemodifier :
+- MagazineCapacity was 60, is now 55
+- NumberOfMagazines was 10, is now 5
+-
+- Engineer
+- MagazineCapacity was 60, is now 50
+- NumberOfMagazines was 10, is now 4
+- Weaponmagazinemodifier :
+- MagazineCapacity was 60, is now 55
+- NumberOfMagazines was 10, is now 5
+-
+- Assault
+- MagazineCapacity was 60, is now 50
+- NumberOfMagazines was 10, is now 4
+- Weaponmagazinemodifier :
+- MagazineCapacity was 60, is now 55
+- NumberOfMagazines was 10, is now 5
+
+# Version 2.5.0
+# Update: 7-03-2026
+- Revamp and fixing ammo data
+- Added and split config type to select difrent damage/ammo type
+- light and custom type
+- custom type if you want to tweak the crap out of it.
+- light type what is slightly beefed
+- Added some nice MAV stuff :)
+
+# Update: 17-02-2026
+- Streamlining config stuff & removal barly used stuff
+
 # Update: 29-02-2025
 - Added missing Gun Master stuff for M320, C4, RPG,SMAW, Crossbow
 - ammo fix for RPG

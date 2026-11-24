@@ -4,22 +4,22 @@ MOD.G18 = {
 		-- FiringFunctionData (G17C default)
 		["56911FB5-F016-456D-8B7E-A50C4EE33D6C"] = {
 			ammo = {
-				magazineCapacity = 50, -- 18
-				numberOfMagazines = 10 -- 4
+				magazineCapacity = 30, -- 18
+				numberOfMagazines = 4 -- 4
 			}
 		},
 		-- FiringFunctionData (G17C suppressed)
 		["EE3C5B46-187E-43CF-8D9C-9058482BAABB"] = {
 			ammo = {
-				magazineCapacity = 50, -- 18
-				numberOfMagazines = 10 -- 4
+				magazineCapacity = 30, -- 18
+				numberOfMagazines = 4 -- 4
 			}
 		},
 		-- FiringFunctionData (G18 default)
 		["F3830102-A4A4-416F-B4D6-6C9C6FAADDCC"] = {
 			ammo = {
-				magazineCapacity = 50, -- 20
-				numberOfMagazines = 10 -- 4
+				magazineCapacity = 30, -- 20
+				numberOfMagazines = 4 -- 4
 			}
 		}
 	}
@@ -30,8 +30,8 @@ MOD.M1911 = {
 		-- FiringFunctionData
 		["95EA0974-BC1D-4657-AD19-2851223F25D3"] = {
 			ammo = {
-				magazineCapacity = 50, -- 9
-				numberOfMagazines = 10 -- 6
+				magazineCapacity = 30, -- 9
+				numberOfMagazines = 4 -- 6
 			}
 		}
 	}
@@ -42,8 +42,8 @@ MOD.M9 = {
 		-- FiringFunctionData
 		["4CDDA2E9-C167-4F81-9958-835EAC8C65D7"] = {
 			ammo = {
-				magazineCapacity = 50, -- 16
-				numberOfMagazines = 10 -- 4
+				magazineCapacity = 30, -- 16
+				numberOfMagazines = 4 -- 4
 			}
 		}
 	}
@@ -54,8 +54,8 @@ MOD.M93R = {
 		-- FiringFunctionData
 		["C3CC5C43-0EAD-4C2A-A67F-123DE27C6476"] = {
 			ammo = {
-				magazineCapacity = 50, -- 21
-				numberOfMagazines = 10 -- 4
+				magazineCapacity = 30, -- 21
+				numberOfMagazines = 4 -- 4
 			},
 			shot = {
 				numberOfBulletsPerBurst = 10 -- 3
@@ -69,8 +69,8 @@ MOD.MAGNUM44 = {
 		-- FiringFunctionData
 		["B6CD5488-67E6-4063-8594-A09DAA2640F3"] = {
 			ammo = {
-				magazineCapacity = 50, -- 6
-				numberOfMagazines = 10 -- 6
+				magazineCapacity = 30, -- 6
+				numberOfMagazines = 4 -- 6
 			}
 		}
 	}
@@ -81,8 +81,8 @@ MOD.MP412REX = {
 		-- FiringFunctionData
 		["97E1D650-4F0D-4F1D-91B2-F65CD8A2C7EC"] = {
 			ammo = {
-				magazineCapacity = 50, -- 6
-				numberOfMagazines = 10 -- 6
+				magazineCapacity = 30, -- 6
+				numberOfMagazines = 4 -- 6
 			}
 		}
 	}
@@ -93,8 +93,8 @@ MOD.MP443 = {
 		-- FiringFunctionData
 		["53489D8D-BE0B-4180-9F96-F1B728EFD898"] = {
 			ammo = {
-				magazineCapacity = 50, -- 18
-				numberOfMagazines = 10 -- 4
+				magazineCapacity = 30, -- 18
+				numberOfMagazines = 4 -- 4
 			}
 		}
 	}

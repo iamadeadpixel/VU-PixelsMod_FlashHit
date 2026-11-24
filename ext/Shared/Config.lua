@@ -1,101 +1,93 @@
+
+AmmoConfig = {
+	header = true, -- Turns on or off the console spam
+	}
+
 Config = {
-	Enabled = false, -- When false, the mod is disabled
-	ByFileName = { -- This is the directory name
+	Enabled = true,
+	ByFileName = { -- This is the directory name and filename
 
 		-- Pimped ammo for gunmaster mode
-		Gunmaster = { 
+		Gunmaster = {
 		-- tweaked gunmaster weapons
-		-- When false, on Gun Master mode
-		-- All weapons have the default ammo count.
-		GMWeapons = false
+		GMWeapons = true
 		},
 
+		Gadgets	= {
+		-- ONLY ONE CAN BE ACTIVE
+		-- tweak all type of explosion data on gadgets
+		Gadgets_EXPData_light = true,
+		Gadgets_EXPData_custom = false,
 
-		Gadgets	= { 
-		-- tweak all type of gadgets - Only ONE can be active 
-		-- Minor tweaks on gadgets
-		Gadgets = false, --  (ONLY ONE CAN BE ACTIVE)
-
-		-- Medium tweaks
-		Gadgets_kinky = false, --  (ONLY ONE CAN BE ACTIVE)
-
-		-- Heavy tweaks, use with care,hehe.
-		Gadgets_kinky_heavy = false, --  (ONLY ONE CAN BE ACTIVE)
+		-- ONLY ONE CAN BE ACTIVE
+		-- tweak all type of gadgets
+		Gadgets_light = true,
+		Gadgets_custom = false,
 		},
 
 		LandVehicles = {
+		-- ONLY ONE CAN BE ACTIVE
 		-- tweak vehicles
+		LandVehicles_light = true,
+		LandVehicles_custom = false,
 
-		-- Medium tweaks on vehicles
-		LandVehicles_beefed = false, --  (ONLY ONE CAN BE ACTIVE)
+		LandVehicles_EXPData_light = true,
+		LandVehicles_EXPData_custom = false,
 
-		-- Minor tweaks on vehicles
-		LandVehicles_light = false --  (ONLY ONE CAN BE ACTIVE)
+		Movement = true,
 		},
 
-		PlayerMovement = {
+		PlayerMovement = { -- (OK)
 			-- tweak player movement
-			-- You walk and run 20% faster
-			-- jump 15% higher
-			-- climbing 15% faster
-			-- swims 15% fast
-			PlayerMovement = false,
-
+			PlayerMovement = true,
 			-- tweak the melee
-			-- More easy to knife a enemy
-			Knoife = false,
-
+			Knoife = true,
 			-- tweak your poor corpse
-			-- A corpse wil stay longer on the map
-			Corpse = false
+			Corpse = true
 		},
 
-		RadarSweepData = {
+		RadarSweepData = { -- (OK)
 			-- Sweepdata tweaks
-			-- when using area sweep, 3x more scan range
-			RSD_Air = false,
-			RSD_Land = false
+		-- ONLY ONE CAN BE ACTIVE
+			RSD_Air_light = true,
+			RSD_Air_custom = false,
+			--
+			RSD_Land_light = true,
+			RSD_Land_custom = false,
 		},
 
 		-- tweak AirVehicles
 		AirVehicles = {
 			-- tweak heli movement
-			Movement = false,
-
+			Movement = true,
 			-- tweak heli & jet & Gun ship weapons
-			Weapons_Beefed = false, --  (ONLY ONE CAN BE ACTIVE)
-			Weapons_Crazy = false --  (ONLY ONE CAN BE ACTIVE)
+		-- ONLY ONE CAN BE ACTIVE
+			Air_Weapons_light = true,
+			Air_Weapons_custom = false,
 		},
 
 		Assault = {
-			-- tweak M320 & M26 (ONLY ONE CAN BE ACTIVE)
-			-- Make thing go more boom
-			Gadgets_light = false, --  (ONLY ONE CAN BE ACTIVE)
-			Gadgets_beefed = false, --  (ONLY ONE CAN BE ACTIVE)
-			Gadgets_kinky = false, --  (ONLY ONE CAN BE ACTIVE)
+		-- ONLY ONE CAN BE ACTIVE
+			-- tweak M320 & M26
+			Assault_gadgets_light = true,
+			Assault_gadgets_custom = false,
 
 			-- tweak all assault rifles
-			-- more ammo !!
-			Weapons = false,
-
+			Assault_weapons = true,
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		},
 
 		Engineer = {
 			-- tweak Engineer rifles
-			-- more ammo !!
-			Weapons = false,
-
+			Weapons = true,
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		},
 
 		PDWs = {
 			-- tweak PDWs
-			-- more ammo !!
 			Weapons = true,
-
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		},
@@ -103,51 +95,45 @@ Config = {
 
 		Pistols = {
 			-- tweak all handguns/pistols
-			-- more ammo !!
-			Weapons = false,
+			Weapons = true,
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		},
 
 		Snipers = {
 			-- Tweaked bullet data
-			-- No gravity isues !
-			Bullets = false,
-
+			Bullets = true,
 			-- tweak all sniper rifles
-			-- more ammo !!
-			Weapons = false,
-
+			Weapons = true,
 			-- tweak all recoil (false is recoil, true is no recoil)
-			Recoil = false,
-
-			-- No bouncing for sniperscopes
-			SteadyScopes = false
+			Recoil = true,
+		-- No movement for sniperscopes ?
+			SteadyScopes = true
 		},
 
 		Support = {
 			-- tweak all LMGs
-			-- more ammo !!
-			Weapons = false,
+			Weapons = true,
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 			},
 
 		Shotguns = {
 			-- tweak all shotgun bullet types
-			-- No gravity isues !
-			Bullets = false,
-
+			Bullets = true,
 			-- tweak all shotguns
-			-- more ammo !!
-			Weapons = false,
-
+			Weapons = true,
 			-- tweak all recoil (false is recoil, true is no recoil)
 			Recoil = false
 		}
 	},
 
 	ByName = {
+	-- Shared weapon data
+	Shared_Heat_Seekers = true,
+
+
+
 		-- Player stuff
 		-- Directory: PlayerMovement
 		Corpse = true,
@@ -163,6 +149,12 @@ Config = {
 		M320_LVG = true,
 		M320_SHG = true,
 		M320_SMK = true,
+
+		-- Assault gadgets Eplosion data stuff
+		-- DO NOT SET TO FALSE,ELSE DEFAULTS WIL BE ACTIVE
+		M320_HE_expdata = true,
+		M320_LVG_expdata = true,
+		M320_SMK_expdata = true,
 
 		-- Assault Rifles (increase ammo) (OK)
 		AEK971 = true,
@@ -445,6 +437,8 @@ Config = {
 		Crossbow_HE = true,
 		Crossbow_Scan = true,
 		Crossbowgm = true,
+		Crossbow_HE_expdata1 = true,
+		Crossbow_HE_expdata2 = true,
 
 		-- Gadgets (OK)
 		AA_Weapon_Missile = true,
@@ -454,9 +448,7 @@ Config = {
 		Defibrillator = true,
 		EODBot = true,
 		Grenades = true,
-		Igla = true,
 		Javelin = true,
-		Kornet = true,
 		M15_Mine = true,
 		M224_Mortar = true,
 		Medikit = true,
@@ -464,6 +456,23 @@ Config = {
 		RPG = true,
 		SMAW = true,
 		Stinger = true,
+		Igla = true,
+
+		-- Gadgets Eplosion data stuff
+		stinger_igla_expdata = true,
+		SMAW_expdata1 = true,
+		SMAW_expdata2 = true,
+		RPG_expdata1 = true,
+		RPG_expdata2 = true,
+		M15_expdata = true,
+		M224_expdata = true,
+		M224_smoke_expdata = true,
+		Grenades_expdata = true,
+		Javelin_expdata1 = true,
+		Javelin_expdata2 = true,
+		C4_expdata = true,
+		Claymore_expdata = true,
+
 
 		-- AirVehicles Movement (OK)
 		AH1Z = true,
@@ -492,6 +501,14 @@ Config = {
 		RU_Jet_guided = true,
 		TV_Missile = true,
 		US_Jet_guided = true,
+		Mounted_guns_recon_Choppers = true,
+
+		MAV_EMP_EXP_data = true,
+		MAV_Default_EXP_data = true,
+		MAV_Jammer_fireing = true,
+		MAV_Raylength_data = true,
+		MAV_spotdistance_data = true,
+		MAV_spottime_data = true,
 
 		-- LandVehicles (OK)
 		AAV_7A1 = true,
@@ -504,13 +521,45 @@ Config = {
 		Himars_hellfire_ammo = true,
 		Himars_hellfire_exp_data = true,
 		HumveeArmored = true,
-		IFV_Bullets = true,
+		IFV_Bullets1 = true,
+		IFV_Bullets2 = true,
+		IFV_Bullets3 = true,
+
 		Light_atack_vehicles_ammo = true,
 		M1128_Stryker = true,
 		M1ABRAMS = true,
 		MobileAA = true,
 		MobileArtillery = true,
-		Mounted_Guns = true,
+		TOW_EXP_Data = true,
+		TOW_MED_Data = true,
+
+		US_M220_tow_launcher = true,
+		RU_9M133_Kornet_Launcher = true,
+
+		Mounted_Guns_A = true,
+		Mounted_Guns_B = true,
+--		Mounted_guns_1 = true, -- Used as testing name
+		T90_HMG_ammo = true,
+		M1128_Stryker_Gunner_ammo = true,
+		Mounted_guns_Bursak = true,
+		Mounted_guns_HMG_Abrams = true,
+		M1Abrams_Coaxial_LMG = true,
+		T90_Coaxial_LMG = true,
+		Mounted_guns_T90_gunner = true,
+		Mounted_guns_VDV_Buggy = true,
+		Mounted_guns_Rhino_M1abrams = true,
+		Mounted_guns_Growler_rhib = true,
+
+		TransportModified_exp_data = true,
+		M1ABRAMS_exp_data = true,
+		T90_exp_data = true,
+		MobileArtillery_exp_data = true,
+		HIMARS_MED_Data = true,
+		IFV_Bullets1_exp_data = true,
+		IFV_Bullets2_exp_data = true,
+
+
+
 		QuadBike = true,
 		RHIB = true,
 		RocketPods_Transport = true,
@@ -526,6 +575,7 @@ Config = {
 		US_hellfire_ammo = true,
 		US_M1128_tow = true,
 		VDV_Buggy = true,
+		Stationary_AA_ammo = true,
 
 		-- RadarSweepData Land (OK)
 		AAV_7A1_radarsweep = true,
@@ -567,3 +617,4 @@ Config = {
 		Z_11w_radarsweep = true
 	}
 }
+
